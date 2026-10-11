@@ -1,0 +1,54 @@
+Phiên bản v2 (05/09/2026) chứa toàn bộ sản phẩm của đề tài:
+ - Bai-bao-EBI-63-tinh-2017-2024.docx : bài báo, 8 hình tách riêng (không ghép tiểu đồ), mỗi hình có chú thích và đoạn giải thích riêng
+ - Bang-doi-chieu-trich-dan.xlsx      : bảng đối chiếu 51 tài liệu trích dẫn (mới; tạo bằng scripts/06_bang_trich_dan.py)
+ - hinh-bai-bao/                       : tao_hinh.py tạo 8 hình vào hinh/, chay_tao_hinh.bat, HUONG-DAN-TAO-HINH.docx, du_lieu/
+ - scripts/                            : 01_phan_tich.py, 02_bang_docx.py, 03_build_docx.js, noi_dung.js, 04_bo_sung_tai_lieu.py,
+                                         05_huong_dan_hinh.js, 06_bang_trich_dan.py (+ node_modules có gói docx)
+ - ket-qua/                            : bảng số liệu CSV, bang_docx.json, panel_phan_tich.csv
+ - Nghien_Cuu_Tai_Lieu_EBI.xlsx        : ma trận tài liệu (đã thêm sheet Kiem_Chung_E1_E6, Tai_Lieu_Thay_The_2026)
+ - bai-bao-mau/                         : 3 bài báo mẫu đã đọc
+
+Ba file đầu vào gốc do người dùng cung cấp KHÔNG sao chép vào v2 (chỉ nằm ở thư mục cha detai/):
+ EBI_NGTK_Panel_2017_2024.xlsx, doi_chieu_citations.xlsx, hdnc18062026.docx.
+ Các script trong v2 tự tìm những file này ở detai/ khi không thấy trong v2 (hàm tim_file).
+ Mọi thứ khác (kể cả Nghien_Cuu_Tai_Lieu_EBI.xlsx đã bổ sung 2 sheet và bai-bao-mau/) đều có trong v2.
+
+Thứ tự tái tạo toàn bộ (chạy trong thư mục v2):
+ python scripts/01_phan_tich.py
+ copy ket-qua\panel_phan_tich.csv hinh-bai-bao\du_lieu\panel_63_tinh_2017_2024.csv
+ python hinh-bai-bao\tao_hinh.py
+ python scripts/02_bang_docx.py
+ node scripts/03_build_docx.js
+ node scripts/05_huong_dan_hinh.js
+ python scripts/06_bang_trich_dan.py
+
+--- Bổ sung 07/09/2026: kho tài liệu gốc + bảng đối chiếu v2 ---
+ Bang-doi-chieu-trich-dan-v2.xlsx : bảng đối chiếu MỚI (3 sheet), mỗi dòng có hyperlink tới file gốc
+                                    trong tai-lieu-doi-chieu/. 35/51 tài liệu đã tải được.
+ tai-lieu-doi-chieu/              : 35 file PDF gốc, đặt tên <STT>_<Họ tác giả>_<Năm>_<Tiêu đề>.pdf
+ tai-lieu-doi-chieu/anh-quet/     : 23 ảnh PNG tách từ 5 PDF quét (không có lớp text) để đọc bằng vision
+ ket-qua/manifest_tai_lieu.json   : nguồn tải, trạng thái từng tài liệu
+ ket-qua/doi_chieu_pdf.json       : kết quả dò đoạn trích trong PDF (số trang)
+ ket-qua/vision_pdf_quet.json     : nội dung gốc đọc bằng vision cho STT 6, 7, 25, 32, 34
+ scripts/08_thu_thap_tai_lieu.py  : tra OpenAlex theo DOI/tiêu đề rồi tải bản open access
+ scripts/09_pdf_sang_anh.py       : tách PDF quét thành PNG (dùng cho vision)
+ scripts/10_doi_chieu_pdf.py      : đối chiếu đoạn trích với PDF đã tải
+ scripts/11_bang_doi_chieu_v2.py  : dựng Bang-doi-chieu-trich-dan-v2.xlsx
+
+ Thứ tự chạy lại: 08 -> (09 cho PDF quét) -> 10 -> 11
+
+--- Cập nhật 08/09/2026: tài liệu tác giả tự bổ sung + quyết định về trích dẫn ---
+ tai-lieu-doi-chieu/           : 41 file (35 tự tải + 6 tác giả bổ sung), + anh-quet/ 26 ảnh PNG
+ ket-qua/tai_lieu_bo_sung.json : nội dung đã đọc từ 6 tài liệu bổ sung + danh sách 8 trích dẫn bỏ khỏi bài
+                                 + 2 tài liệu kinh điển giữ mà không cần file
+ scripts/10_doi_chieu_pdf.py   : đã sửa để đọc được cả .docx (Williamson 1965)
+ scripts/11_bang_doi_chieu_v2.py: đã sửa để đọc tai_lieu_bo_sung.json và tô màu theo quyết định
+
+ CHƯA LÀM (đợi lệnh): gỡ 8 trích dẫn khỏi scripts/noi_dung.js và chạy lại bài.
+
+--- Cập nhật 09/09/2026 ---
+ CHỐT: bỏ thêm STT 42 (CIEM 2023) khỏi bài -> tổng 9 trích dẫn bỏ khỏi bài
+       (STT 5, 11, 12, 21, 35, 42, 43, 44, 47); danh mục Tài liệu tham khảo còn 42 mục.
+       Lý do STT 42 ghi trong ket-qua/tai_lieu_bo_sung.json ("ly_do_bo") và trong bảng đối chiếu.
+       File PDF của STT 42 vẫn giữ trong tai-lieu-doi-chieu/ làm bằng chứng, không còn là tài liệu tham khảo.
+ CHƯA LÀM (đợi lệnh): gỡ 9 trích dẫn khỏi scripts/noi_dung.js và chạy lại bài.

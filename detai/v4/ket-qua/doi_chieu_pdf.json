@@ -1,0 +1,837 @@
+{
+ "1": {
+  "stt": 1,
+  "file": "01_Abd-Rashid_2025_Bridging-the-digital-divide-in-ASEAN-Insights-from-Vietnam-P.pdf",
+  "co_file": true,
+  "so_trang": 18,
+  "quet": false,
+  "tim_thay": [
+   {
+    "doan": "Employing sigma and beta convergence analyses, the findings reveal persistent disparities in digital infrastructure and adoption, indicating a lack of convergen",
+    "trang_pdf": 1,
+    "khop": 0.27
+   }
+  ],
+  "khong_thay": [
+   {
+    "doan": "Sử dụng phân tích hội tụ sigma và beta, kết quả cho thấy sự chênh lệch dai dẳng về hạ tầng và mức độ ứng dụng số, phản ánh sự thiếu hội tụ. Trong khi các nước n",
+    "trang_pdf": 0,
+    "khop": 0.0
+   }
+  ]
+ },
+ "2": {
+  "stt": 2,
+  "file": "02_Anselin_1995_Local-indicators-of-spatial-association-LISA.pdf",
+  "co_file": true,
+  "so_trang": 23,
+  "quet": false,
+  "tim_thay": [
+   {
+    "doan": "In this paper, I outline a new general class of local indicators of spatial association (LISA) and show how they allow for the decomposition of global indicator",
+    "trang_pdf": 1,
+    "khop": 1.0
+   },
+   {
+    "doan": "The LISA statistics serve two purposes. On one hand, they may be interpreted as indicators of local pockets of nonstationarity, or hot spots... On the other han",
+    "trang_pdf": 1,
+    "khop": 0.46
+   }
+  ],
+  "khong_thay": []
+ },
+ "3": {
+  "stt": 3,
+  "file": "03_Aumeboonsuke_2025_Digital-convergence-and-divergence-in-EU-and-ASEAN-economies.pdf",
+  "co_file": true,
+  "so_trang": 25,
+  "quet": false,
+  "tim_thay": [
+   {
+    "doan": "The findings indicate that while the EU demonstrates more consistent convergence across digital indices, ASEAN exhibits both convergence and divergence, particu",
+    "trang_pdf": 1,
+    "khop": 1.0
+   }
+  ],
+  "khong_thay": [
+   {
+    "doan": "Kết quả chỉ ra rằng trong khi EU thể hiện sự hội tụ nhất quán hơn trên các chỉ số số hóa, ASEAN lại thể hiện cả sự hội tụ và phân kỳ, đặc biệt là trong giai đoạ",
+    "trang_pdf": 0,
+    "khop": 0.0
+   }
+  ]
+ },
+ "4": {
+  "stt": 4,
+  "file": "04_Barro_1992_Convergence.pdf",
+  "co_file": true,
+  "so_trang": 30,
+  "quet": false,
+  "tim_thay": [
+   {
+    "doan": "A key economic issue is whether poor countries or regions tend to grow faster than rich ones: are there automatic forces that lead to convergence over time in t",
+    "trang_pdf": 2,
+    "khop": 1.0
+   }
+  ],
+  "khong_thay": [
+   {
+    "doan": "Convergence in the sense of poor economies tending to grow faster than rich ones, which corresponds to β > 0 ... does not necessarily imply that the cross-econo",
+    "trang_pdf": 0,
+    "khop": 0.0
+   }
+  ]
+ },
+ "5": {
+  "stt": 5,
+  "file": "05_Billon_2008_The-spatial-distribution-of-the-Internet-in-the-European-Uni.pdf",
+  "co_file": false,
+  "so_trang": 0,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": []
+ },
+ "6": {
+  "stt": 6,
+  "file": "06_Blinder_1973_Wage-discrimination-Reduced-form-and-structural-estimates.pdf",
+  "co_file": true,
+  "so_trang": 20,
+  "quet": true,
+  "tim_thay": [],
+  "khong_thay": []
+ },
+ "7": {
+  "stt": 7,
+  "file": "07_Bo-Cong-Thuong_2025_Quyet-dinh-so-1568-QD-BCT-ngay-03-thang-6-nam-2025-ve-viec-p.pdf",
+  "co_file": true,
+  "so_trang": 65,
+  "quet": true,
+  "tim_thay": [],
+  "khong_thay": []
+ },
+ "8": {
+  "stt": 8,
+  "file": "08_Bruno_2023_A-reduced-composite-indicator-for-digital-divide-measurement.pdf",
+  "co_file": true,
+  "so_trang": 16,
+  "quet": false,
+  "tim_thay": [
+   {
+    "doan": "Such an approach seems to respond to the assumption that a higher number of indicators should result in more accurate CIs.",
+    "trang_pdf": 1,
+    "khop": 1.0
+   },
+   {
+    "doan": "The present study aims at giving a twofold contribution.",
+    "trang_pdf": 2,
+    "khop": 1.0
+   }
+  ],
+  "khong_thay": []
+ },
+ "9": {
+  "stt": 9,
+  "file": "09_Caragliu_2025_Regional-institutions-and-the-urban-digital-divide.pdf",
+  "co_file": false,
+  "so_trang": 0,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": []
+ },
+ "10": {
+  "stt": 10,
+  "file": "10_Chinn_2007_The-determinants-of-the-global-digital-divide-A-cross-countr.pdf",
+  "co_file": true,
+  "so_trang": 38,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": [
+   {
+    "doan": "Income and telecommunications infrastructure explain 70–80% of the global digital divide.",
+    "trang_pdf": 0,
+    "khop": 0.0
+   },
+   {
+    "doan": "Institutional quality (regulatory quality, rule of law) and human capital play significant moderating roles after controlling for income.",
+    "trang_pdf": 0,
+    "khop": 0.0
+   },
+   {
+    "doan": "Per capita income is the single most important determinant.",
+    "trang_pdf": 0,
+    "khop": 0.0
+   }
+  ]
+ },
+ "11": {
+  "stt": 11,
+  "file": "11_Cowell_2011_Measuring-inequality-3rd-ed.pdf",
+  "co_file": false,
+  "so_trang": 0,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": []
+ },
+ "12": {
+  "stt": 12,
+  "file": "12_Davis_1989_Perceived-usefulness-perceived-ease-of-use-and-user-acceptan.pdf",
+  "co_file": false,
+  "so_trang": 0,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": []
+ },
+ "13": {
+  "stt": 13,
+  "file": "13_Fan_2024_Spatiotemporal-distribution-and-regional-imbalance-of-China.pdf",
+  "co_file": true,
+  "so_trang": 21,
+  "quet": false,
+  "tim_thay": [
+   {
+    "doan": "\"regional differences have been the main cause, accounting for an average contribution rate of 72.09% that has been steadily declining by 5.01%.",
+    "trang_pdf": 13,
+    "khop": 1.0
+   },
+   {
+    "doan": "The next highest contribution rate is from intra-regional disparities, which have an average of 21.22%;",
+    "trang_pdf": 13,
+    "khop": 1.0
+   },
+   {
+    "doan": "the lowest is from super-density disparities, which have an average of only 6.69%.",
+    "trang_pdf": 13,
+    "khop": 1.0
+   }
+  ],
+  "khong_thay": []
+ },
+ "14": {
+  "stt": 14,
+  "file": "14_Galperin_2021_Employment-and-the-gender-digital-divide-in-Latin-America-A.pdf",
+  "co_file": true,
+  "so_trang": 12,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": [
+   {
+    "doan": "Equalising employment would close at least one quarter of the gender digital divide.",
+    "trang_pdf": 0,
+    "khop": 0.0
+   },
+   {
+    "doan": "[Câu hỏi gốc EN: How much of the gender digital divide in Latin America is explained by employment.]",
+    "trang_pdf": 0,
+    "khop": 0.0
+   }
+  ]
+ },
+ "15": {
+  "stt": 15,
+  "file": "15_Hao_2026_Digital-infrastructure-SME-e-commerce-and-economic-growth-Ev.pdf",
+  "co_file": true,
+  "so_trang": 34,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": [
+   {
+    "doan": "A 10-point rise in SME digitalisation adds about 0.3 percentage points to growth;",
+    "trang_pdf": 0,
+    "khop": 0.0
+   },
+   {
+    "doan": "[Câu hỏi gốc EN: Effects of SME digitalisation on regional growth, moderated by digital infrastructure readiness.]",
+    "trang_pdf": 0,
+    "khop": 0.0
+   }
+  ]
+ },
+ "16": {
+  "stt": 16,
+  "file": "16_Hiep-hoi-Thuong-mai-dien-tu_2017_Bao-cao-Chi-so-Thuong-mai-dien-tu-Viet-Nam-cac-nam-2017-2025.pdf",
+  "co_file": true,
+  "so_trang": 98,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": [
+   {
+    "doan": "[NỘI DUNG BÁO CÁO GỐC]:\nBáo cáo Chỉ số Thương mại điện tử Việt Nam (EBI) thường niên cung cấp điểm số EBI tổng hợp và điểm số 3 trụ cột (NNL&HT, B2C, B2B) cho 6",
+    "trang_pdf": 0,
+    "khop": 0.0
+   },
+   {
+    "doan": "[ĐỐI CHIẾU]:\n✓ Trích dẫn chính xác về cấu trúc dữ liệu EBI và thực trạng phân hóa được ghi nhận trong các báo cáo thường niên từ 2017-2025.",
+    "trang_pdf": 0,
+    "khop": 0.0
+   }
+  ]
+ },
+ "17": {
+  "stt": 17,
+  "file": "17_International-Telecommunicat_2025_Measuring-digital-development-Facts-and-Figures-2025.pdf",
+  "co_file": true,
+  "so_trang": 42,
+  "quet": false,
+  "tim_thay": [
+   {
+    "doan": "Today, in 2025, 74 per cent of the world's population are online, compared with 71 per cent a year earlier. In absolute numbers, this corresponds to 6 billion p",
+    "trang_pdf": 7,
+    "khop": 1.0
+   }
+  ],
+  "khong_thay": [
+   {
+    "doan": "High-income countries are nearing universal Internet use with 94 per cent of the population using the Internet. In contrast, only 23 per cent of the population ",
+    "trang_pdf": 0,
+    "khop": 0.0
+   }
+  ]
+ },
+ "18": {
+  "stt": 18,
+  "file": "18_Jann_2008_The-Blinder-Oaxaca-decomposition-for-linear-regression-model.pdf",
+  "co_file": true,
+  "so_trang": 27,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": [
+   {
+    "doan": "Nội dung dùng trong bài: khi dùng hệ số của mô hình gộp làm tham chiếu, cần đưa biến chỉ báo nhóm vào mô hình gộp để tránh chuyển một phần khác biệt nhóm vào ph",
+    "trang_pdf": 0,
+    "khop": 0.0
+   }
+  ]
+ },
+ "19": {
+  "stt": 19,
+  "file": "19_Laskar_2023_Examining-the-emergence-of-digital-society-and-the-digital-d.pdf",
+  "co_file": true,
+  "so_trang": 10,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": [
+   {
+    "doan": "However, this transformation has also led to a digital divide, with a significant gap in Internet access and usage between urban and rural areas. This divide re",
+    "trang_pdf": 0,
+    "khop": 0.0
+   },
+   {
+    "doan": "Tuy nhiên, sự chuyển đổi này cũng dẫn đến khoảng cách số, với khoảng cách lớn về tiếp cận và sử dụng Internet giữa thành thị và nông thôn. Khoảng cách này củng ",
+    "trang_pdf": 0,
+    "khop": 0.0
+   }
+  ]
+ },
+ "20": {
+  "stt": 20,
+  "file": "20_Leogrande_2026_From-connectivity-to-commerce-A-multi-technique-investigatio.pdf",
+  "co_file": true,
+  "so_trang": 40,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": [
+   {
+    "doan": "Internet use, household connectivity and remote work are the strongest predictors;",
+    "trang_pdf": 0,
+    "khop": 0.0
+   },
+   {
+    "doan": "[Câu hỏi gốc EN: Drivers of regional disparities in enterprise e-commerce adoption in Italy.]",
+    "trang_pdf": 0,
+    "khop": 0.0
+   }
+  ]
+ },
+ "21": {
+  "stt": 21,
+  "file": "21_Lerman_1985_Income-inequality-effects-by-income-source-A-new-approach-an.pdf",
+  "co_file": false,
+  "so_trang": 0,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": []
+ },
+ "22": {
+  "stt": 22,
+  "file": "22_Li_2025_Measurement-regional-disparities-and-spatial-convergence-in.pdf",
+  "co_file": true,
+  "so_trang": 27,
+  "quet": false,
+  "tim_thay": [
+   {
+    "doan": "economic structure and innovation application accelerate convergence.",
+    "trang_pdf": 1,
+    "khop": 0.65
+   }
+  ],
+  "khong_thay": [
+   {
+    "doan": "Between-region differences are the main source of inequality;",
+    "trang_pdf": 0,
+    "khop": 0.0
+   },
+   {
+    "doan": "[Câu hỏi gốc EN: Measure, compare and test convergence of provincial digital innovation ecosystems.]",
+    "trang_pdf": 0,
+    "khop": 0.0
+   }
+  ]
+ },
+ "23": {
+  "stt": 23,
+  "file": "23_Lin_2023_What-are-the-determinants-of-rural-urban-divide-in-teachers.pdf",
+  "co_file": true,
+  "so_trang": 12,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": [
+   {
+    "doan": "Rural teachers score significantly lower on all indicators;",
+    "trang_pdf": 0,
+    "khop": 0.0
+   },
+   {
+    "doan": "data literacy and ICT skills explain most of the gap.",
+    "trang_pdf": 0,
+    "khop": 0.0
+   },
+   {
+    "doan": "[Câu hỏi gốc EN: Determinants of the rural–urban gap in teachers' digital teaching competence.]",
+    "trang_pdf": 0,
+    "khop": 0.0
+   }
+  ]
+ },
+ "24": {
+  "stt": 24,
+  "file": "24_Norris_2001_Digital-divide-Civic-engagement-information-poverty-and-the.pdf",
+  "co_file": false,
+  "so_trang": 0,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": []
+ },
+ "25": {
+  "stt": 25,
+  "file": "25_Oaxaca_1973_Male-female-wage-differentials-in-urban-labor-markets.pdf",
+  "co_file": true,
+  "so_trang": 18,
+  "quet": true,
+  "tim_thay": [],
+  "khong_thay": []
+ },
+ "26": {
+  "stt": 26,
+  "file": "26_Ozcan-Alp_2023_Assessment-of-regional-digital-divide-in-Turkiye.pdf",
+  "co_file": true,
+  "so_trang": 19,
+  "quet": false,
+  "tim_thay": [
+   {
+    "doan": "The result maps indicate digital inequalities both at regional and city scales, yet inequalities are more remarkable at the city scale.",
+    "trang_pdf": 1,
+    "khop": 1.0
+   }
+  ],
+  "khong_thay": [
+   {
+    "doan": "Bản đồ kết quả cho thấy bất bình đẳng số tồn tại ở cả cấp vùng và cấp thành phố, tuy nhiên bất bình đẳng thể hiện rõ rệt/khốc liệt hơn ở cấp thành phố.",
+    "trang_pdf": 0,
+    "khop": 0.0
+   }
+  ]
+ },
+ "27": {
+  "stt": 27,
+  "file": "27_Phillips_2007_Transition-modeling-and-econometric-convergence-tests.pdf",
+  "co_file": true,
+  "so_trang": 87,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": [
+   {
+    "doan": "Rejection of single steady-state hypothesis: economies typically form 2–3 convergence clubs with different convergence speeds and steady states.",
+    "trang_pdf": 0,
+    "khop": 0.0
+   },
+   {
+    "doan": "LISA maps clearly identify spatial clusters: HH (hot spots of mutual high development) and LL (cold spots of mutual low development).",
+    "trang_pdf": 0,
+    "khop": 0.0
+   },
+   {
+    "doan": "[Câu hỏi gốc EN: How can convergence to multiple steady states (club convergence) be tested instead of assuming a single common steady state? How can local spat",
+    "trang_pdf": 0,
+    "khop": 0.0
+   }
+  ]
+ },
+ "28": {
+  "stt": 28,
+  "file": "28_Qiu_2023_Whether-the-digital-divide-widens-the-income-gap-between-Chi.pdf",
+  "co_file": true,
+  "so_trang": 20,
+  "quet": false,
+  "tim_thay": [
+   {
+    "doan": "...every 1 unit increase in the digital divide will widen the income divide by 0.134 units. This conclusion is still robust under the replacement of Theil index",
+    "trang_pdf": 1,
+    "khop": 1.0
+   }
+  ],
+  "khong_thay": [
+   {
+    "doan": "...mỗi 1 đơn vị gia tăng trong khoảng cách số sẽ làm rộng khoảng cách thu nhập thêm 0,134 đơn vị. Kết luận này vẫn vững chắc dưới việc thay thế chỉ số Theil...",
+    "trang_pdf": 0,
+    "khop": 0.0
+   }
+  ]
+ },
+ "29": {
+  "stt": 29,
+  "file": "29_Raihan_2025_Dimensions-and-barriers-for-digital-in-equity-and-digital-di.pdf",
+  "co_file": true,
+  "so_trang": 17,
+  "quet": false,
+  "tim_thay": [
+   {
+    "doan": "...demonstrated four major dimensions of the digital divide among various vulnerable groups, including digital literacy, affordability, equity-deserving group-s",
+    "trang_pdf": 1,
+    "khop": 1.0
+   }
+  ],
+  "khong_thay": [
+   {
+    "doan": "...chỉ ra bốn khía cạnh lớn của khoảng cách số giữa các nhóm dễ bị tổn thương, bao gồm: năng lực số (literacy), khả năng chi trả (affordability), nội dung nhạy ",
+    "trang_pdf": 0,
+    "khop": 0.0
+   }
+  ]
+ },
+ "30": {
+  "stt": 30,
+  "file": "30_Rogers_2003_Diffusion-of-innovations-5th-ed.pdf",
+  "co_file": false,
+  "so_trang": 0,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": []
+ },
+ "31": {
+  "stt": 31,
+  "file": "31_Ruan_2024_The-impact-of-digital-economy-development-on-regional-income.pdf",
+  "co_file": true,
+  "so_trang": 27,
+  "quet": false,
+  "tim_thay": [
+   {
+    "doan": "...the relationship between digital economy development and income gaps follows a U-shape, initially reducing the gap and later widening it.",
+    "trang_pdf": 1,
+    "khop": 1.0
+   }
+  ],
+  "khong_thay": [
+   {
+    "doan": "...mối quan hệ giữa phát triển kinh tế số và khoảng cách thu nhập tuân theo hình chữ U, ban đầu thu hẹp khoảng cách và sau đó làm rộng nó.",
+    "trang_pdf": 0,
+    "khop": 0.0
+   }
+  ]
+ },
+ "32": {
+  "stt": 32,
+  "file": "32_Sala-i-Martin_1996_The-classical-approach-to-convergence-analysis.pdf",
+  "co_file": true,
+  "so_trang": 44,
+  "quet": true,
+  "tim_thay": [],
+  "khong_thay": []
+ },
+ "33": {
+  "stt": 33,
+  "file": "33_Theil_1967_Economics-and-information-theory.pdf",
+  "co_file": false,
+  "so_trang": 0,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": []
+ },
+ "34": {
+  "stt": 34,
+  "file": "34_Thu-tuong-Chinh-phu_2020_Quyet-dinh-so-645-QD-TTg-ngay-15-thang-5-nam-2020-ve-viec-ph.pdf",
+  "co_file": true,
+  "so_trang": 23,
+  "quet": true,
+  "tim_thay": [],
+  "khong_thay": []
+ },
+ "35": {
+  "stt": 35,
+  "file": "35_Tornatzky_1990_The-processes-of-technological-innovation.pdf",
+  "co_file": false,
+  "so_trang": 0,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": []
+ },
+ "36": {
+  "stt": 36,
+  "file": "36_United-Nations-Conference-on_2024_Digital-Economy-Report-2024.pdf",
+  "co_file": true,
+  "so_trang": 288,
+  "quet": false,
+  "tim_thay": [
+   {
+    "doan": "...the growing popularity of e-commerce, which saw business sales rise from $17 trillion in 2016 to $27 trillion in 2022 in 43 countries...",
+    "trang_pdf": 7,
+    "khop": 1.0
+   },
+   {
+    "doan": "UNCTAD estimates that the total value of e-commerce sales by businesses, in the 43 developed and developing countries for which data are available, rose from $1",
+    "trang_pdf": 26,
+    "khop": 1.0
+   }
+  ],
+  "khong_thay": []
+ },
+ "37": {
+  "stt": 37,
+  "file": "37_van-Deursen_2015_The-third-level-digital-divide-Who-benefits-most-from-being.pdf",
+  "co_file": true,
+  "so_trang": 25,
+  "quet": false,
+  "tim_thay": [
+   {
+    "doan": "Research into the explanations of digital inclusion has moved from investigations of skills and usage to tangible outcomes, what we label here as the third-leve",
+    "trang_pdf": 1,
+    "khop": 0.74
+   }
+  ],
+  "khong_thay": [
+   {
+    "doan": "The third-level digital divide focuses on who benefits most from being online.",
+    "trang_pdf": 0,
+    "khop": 0.0
+   }
+  ]
+ },
+ "38": {
+  "stt": 38,
+  "file": "38_van-Deursen_2014_The-digital-divide-shifts-to-differences-in-usage.pdf",
+  "co_file": true,
+  "so_trang": 21,
+  "quet": false,
+  "tim_thay": [
+   {
+    "doan": "...the digital divide shifts to differences in usage... people with low levels of education and disabled people are using the Internet for more hours a day in t",
+    "trang_pdf": 1,
+    "khop": 0.25
+   }
+  ],
+  "khong_thay": [
+   {
+    "doan": "Differences in Internet use shift from physical access (first-level) to skills and usage (second-level).",
+    "trang_pdf": 0,
+    "khop": 0.0
+   }
+  ]
+ },
+ "39": {
+  "stt": 39,
+  "file": "39_van-Dijk_2006_Digital-divide-research-achievements-and-shortcomings.pdf",
+  "co_file": true,
+  "so_trang": 15,
+  "quet": false,
+  "tim_thay": [
+   {
+    "doan": "In terms of physical access the divide seems to be closing in the most developed countries; concerning digital skills and the use of applications the divide per",
+    "trang_pdf": 1,
+    "khop": 1.0
+   },
+   {
+    "doan": "The divides of skills access are bigger than the divides of physical access and while physical access gaps are more or less closing, the skills gap tends to gro",
+    "trang_pdf": 9,
+    "khop": 0.42
+   },
+   {
+    "doan": "The number of weekly hours of computer and Internet use of males was double that of females",
+    "trang_pdf": 9,
+    "khop": 1.0
+   },
+   {
+    "doan": "Income was the most important factor for physical access, followed by age, and then education.",
+    "trang_pdf": 6,
+    "khop": 0.71
+   },
+   {
+    "doan": "What inequality does the digital divide concept refer to?",
+    "trang_pdf": 2,
+    "khop": 1.0
+   }
+  ],
+  "khong_thay": []
+ },
+ "40": {
+  "stt": 40,
+  "file": "40_van-Dijk_2020_The-digital-divide.pdf",
+  "co_file": false,
+  "so_trang": 0,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": []
+ },
+ "41": {
+  "stt": 41,
+  "file": "41_Vicente_2011_Assessing-the-regional-digital-divide-across-the-European-Un.pdf",
+  "co_file": false,
+  "so_trang": 0,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": []
+ },
+ "42": {
+  "stt": 42,
+  "file": "42_Vien-Nghien-cuu-Quan-ly-Kinh_2023_Phat-trien-kinh-te-so-tai-Viet-Nam-Thuc-trang-va-khuyen-nghi.pdf",
+  "co_file": false,
+  "so_trang": 0,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": []
+ },
+ "43": {
+  "stt": 43,
+  "file": "43_Vu_2026_Institutional-quality-and-infrastructure-as-catalyst-to-the.pdf",
+  "co_file": false,
+  "so_trang": 0,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": []
+ },
+ "44": {
+  "stt": 44,
+  "file": "44_Vu_2025_Digital-transformation-and-economic-growth-Empirical-evidenc.pdf",
+  "co_file": false,
+  "so_trang": 0,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": []
+ },
+ "45": {
+  "stt": 45,
+  "file": "45_Wang_2021_Spatial-diffusion-of-e-commerce-in-China-s-counties-Based-on.pdf",
+  "co_file": true,
+  "so_trang": 17,
+  "quet": false,
+  "tim_thay": [
+   {
+    "doan": "Our study suggests that online business trends are in line only with the innovation diffusion hypothesis, with marginal counties having lower levels of online b",
+    "trang_pdf": 1,
+    "khop": 1.0
+   },
+   {
+    "doan": "Affordability is, therefore, the main reason why some marginal areas have achieved a 'marginal revolution' in terms of online shopping.",
+    "trang_pdf": 12,
+    "khop": 1.0
+   }
+  ],
+  "khong_thay": []
+ },
+ "46": {
+  "stt": 46,
+  "file": "46_Wang_2024_Regional-measurement-and-dynamic-evolution-of-the-developmen.pdf",
+  "co_file": true,
+  "so_trang": 15,
+  "quet": false,
+  "tim_thay": [
+   {
+    "doan": "The regional differences in the level of China's digital economy development are mainly due to inter-regional differences, and there is a trend of gradual reduc",
+    "trang_pdf": 1,
+    "khop": 1.0
+   }
+  ],
+  "khong_thay": []
+ },
+ "47": {
+  "stt": 47,
+  "file": "47_Warschauer_2003_Technology-and-social-inclusion-Rethinking-the-digital-divid.pdf",
+  "co_file": false,
+  "so_trang": 0,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": []
+ },
+ "48": {
+  "stt": 48,
+  "file": "48_Williamson_1965_Regional-inequality-and-the-process-of-national-development.pdf",
+  "co_file": false,
+  "so_trang": 0,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": []
+ },
+ "49": {
+  "stt": 49,
+  "file": "49_Wu_2025_Spatio-temporal-evolution-and-convergence-patterns-of-e-comm.pdf",
+  "co_file": true,
+  "so_trang": 25,
+  "quet": false,
+  "tim_thay": [],
+  "khong_thay": [
+   {
+    "doan": "Overall Gini fell from 0.505 (2013) to 0.471 (2021);",
+    "trang_pdf": 0,
+    "khop": 0.0
+   },
+   {
+    "doan": "regions that initiated later develop faster.",
+    "trang_pdf": 0,
+    "khop": 0.0
+   },
+   {
+    "doan": "[Câu hỏi gốc EN: Whether provincial e-commerce shows spatio-temporal disparities and converges across regions.]",
+    "trang_pdf": 0,
+    "khop": 0.0
+   }
+  ]
+ },
+ "50": {
+  "stt": 50,
+  "file": "50_Zhao_2022_Determinants-of-the-digital-outcome-divide-in-e-learning-bet.pdf",
+  "co_file": true,
+  "so_trang": 16,
+  "quet": false,
+  "tim_thay": [
+   {
+    "doan": "…accounted for 72.9% (−0.287/(−0.393) = 72.9%) of the rural-urban digital outcome divide. In other words, this 72.9% of the digital outcome divide could be redu",
+    "trang_pdf": 10,
+    "khop": 1.0
+   },
+   {
+    "doan": "the association effect, which was due to the differences in the unobserved parts between rural and urban students, accounted for 27.1% of the rural-urban digita",
+    "trang_pdf": 10,
+    "khop": 1.0
+   }
+  ],
+  "khong_thay": []
+ },
+ "51": {
+  "stt": 51,
+  "file": "51_Zhou_2024_A-new-framework-measurement-and-determinants-of-the-digital.pdf",
+  "co_file": true,
+  "so_trang": 30,
+  "quet": false,
+  "tim_thay": [
+   {
+    "doan": "This study defines DD as the spatial imbalance of the digital economy.",
+    "trang_pdf": 3,
+    "khop": 1.0
+   },
+   {
+    "doan": "The degree of the national DD shows a fluctuating downward trend, from 0.4731 in 2010 to 0.2560 in 2020, which is a decrease rate of 45.89%.",
+    "trang_pdf": 17,
+    "khop": 1.0
+   }
+  ],
+  "khong_thay": []
+ }
+}

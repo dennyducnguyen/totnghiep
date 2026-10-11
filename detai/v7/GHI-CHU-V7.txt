@@ -1,0 +1,102 @@
+PHIÊN BẢN v7 (14/09/2026) — BẢN CHỈNH SỬA SAU PHẢN BIỆN "TINH GỌN PHƯƠNG PHÁP"
+=================================================================================
+v7 = bản sao đầy đủ của v6 (mọi file v6 giữ nguyên, không ghi đè) + các file MỚI có hậu tố "v7".
+Yêu cầu chỉnh sửa (14/09/2026): đóng vai phản biện PGS.TS, chẩn đoán bản thảo v6, thiết kế lại
+với ÍT phương pháp hơn, mỗi phương pháp phải cần thiết; xử lý nghiêm túc điểm gãy EBI 2021, dữ liệu
+thiếu, ngôn ngữ nhân quả; ưu tiên tài liệu 2021–2026; không tạo số liệu/tài liệu mới.
+
+-----------------------------------------------------
+1. FILE MỚI CỦA v7 (đọc theo thứ tự này)
+-----------------------------------------------------
+ BAO-CAO-CHINH-SUA-V7.docx                  BÁO CÁO CHẨN ĐOÁN + THIẾT KẾ MỚI + KẾ HOẠCH CHỈNH SỬA + BẢNG KIỂM
+                                            (Bước 1, 2, 3, 5 của yêu cầu; 12 trang). Phụ lục của báo cáo chứa số liệu
+                                            kiểm tra bổ sung không đưa vào bài (Oaxaca có/không HN&HCM, beta có/không HN&HCM,
+                                            tương quan EBI – mật độ DN theo năm).
+ Bai-bao-EBI-63-tinh-2017-2024-v7.docx      BÀI BÁO VIẾT LẠI (Bước 4; 25 trang; 34 tài liệu tham khảo; 7 bảng chính + 5 bảng
+                                            phụ lục; 4 hình; 8 phương trình đánh số (1)–(8) + 5 phương trình phụ lục (A1)–(A5)).
+ Bang-doi-chieu-trich-dan-v7.xlsx           bảng đối chiếu trích dẫn của bài v7 (script 06_v7)
+ Bang-doi-chieu-trich-dan-kem-tai-lieu-v7.xlsx  bản kèm tham chiếu file gốc (script 10_v7 + 11_v7); sheet Da_bo_khoi_bai
+                                            liệt kê cả 9 tài liệu bỏ ở v6 và 9 tài liệu bỏ ở v7.
+ ket-qua-v7/                                 kết quả tính lại: bang1_mo_ta, bang2_do_phu, bang3_vung, bang4_gini_theil,
+                                            bang5_theil_vung, bang6_gini_tru_cot, bang7_fe, phu_*.csv, ket_qua_v7.json,
+                                            panel_v7.csv, bang_docx_v7.json; bo-sung/oaxaca_kiem_tra.csv (chỉ cho báo cáo);
+                                            kiem-tra/*.pdf = bản PDF xuất từ Word để kiểm tra bố cục.
+ hinh-bai-bao/tao_hinh_v7.py + hinh-v7/      4 hình của bài v7 (Hình 1 khung phân tích mới, Hình 2 EBI vùng, Hình 3 Theil
+                                            phân rã dạng cột chồng, Hình 4 Gini từng trụ cột).
+ scripts/01_phan_tich_v7.py                  phân tích v7 (FE tỉnh + năm bằng linearmodels, Hausman, hạng phần trăm, mẫu cân bằng,
+                                            tương quan hạng, Gini/Theil, beta phụ lục, Oaxaca kiểm tra)
+ scripts/02_bang_docx_v7.py                  bảng → JSON (b1–b7, a1–a5)
+ scripts/cong_thuc_v7.js                     từ điển công thức OMML của v7
+ scripts/noi_dung_v7.js                      nội dung bài báo v7
+ scripts/bao_cao_chinh_sua_v7.js             nội dung báo cáo chẩn đoán
+ scripts/03_build_docx_v7.js                 bộ dựng Word dùng chung (tham số = tên mô-đun nội dung); có bảng nội tuyến,
+                                            đánh số phương trình riêng cho phụ lục (A1…), từ chối ghi đè bài báo bản trước
+ scripts/06_bang_trich_dan_v7.py, 10_doi_chieu_pdf_v7.py, 11_bang_kem_tai_lieu_v7.py   bản v7 của chuỗi đối chiếu trích dẫn
+ scripts/16_docx_sang_pdf_anh.py             docx → PDF (Word COM) → ảnh từng trang để kiểm tra
+
+-----------------------------------------------------
+2. HAI PHÁT HIỆN QUYẾT ĐỊNH CỦA v7 (chi tiết trong BAO-CAO-CHINH-SUA-V7, Bước 1, mục S1–S2)
+-----------------------------------------------------
+ S1. Từ khi đổi phương pháp, EBI CHỨA chỉ tiêu "tỷ lệ số doanh nghiệp/dân số" (trụ cột B2B), "thu nhập bình quân đầu
+     người/tháng" (B2C) và "tên miền .vn/dân số" (NNL&HT) — theo Báo cáo EBI 2023 của VECOM, tr. 49–53 (file 16 trong kho).
+     -> Biến giải thích "mật độ doanh nghiệp" của v6 trùng một phần định nghĩa với biến phụ thuộc từ 2021. Kết luận
+        "mật độ DN là yếu tố quyết định mạnh nhất" và "69% khoảng cách do mật độ DN" của v6 bị phóng đại.
+     Kiểm tra: FE 2021–2024 hệ số mật độ DN = 0,103 (p = 0,29); FE với Y = hạng phần trăm: p = 0,25; Oaxaca loại HN&HCM:
+     phần do mật độ DN 69% -> 45%; giai đoạn 2019–2020 (trước đổi PP): 37%.
+ S2. Hội tụ beta của v6 mất ý nghĩa khi loại Hà Nội & TP.HCM (β = −0,021, p = 0,40 giai đoạn 2017–2020; −0,023, p = 0,25
+     giai đoạn 2021–2024). "Tỉnh thấp tăng nhanh hơn" thực chất là hai thành phố ở sát trần thang điểm tăng chậm.
+
+-----------------------------------------------------
+3. THIẾT KẾ v7 (so với v6)
+-----------------------------------------------------
+ Tiêu đề: "... mức độ, cấu trúc và các yếu tố liên quan" (bỏ "hội tụ", "yếu tố quyết định").
+ RQ1 mức độ & thay đổi -> Gini (chính), Theil-T, SD ln(EBI) theo giai đoạn; Gini từng trụ cột.
+ RQ2 giữa vùng / trong vùng -> phân rã Theil-T 6 vùng + đóng góp từng vùng.
+ RQ3 yếu tố liên hệ -> FE tỉnh + năm, SE cụm tỉnh (Hausman χ²(8) = 72,4). OLS gộp chỉ còn 1 cột "so sánh".
+ Mệnh đề P1, P2 (mô tả) + giả thuyết H1, H2 (liên hệ thống kê). Bỏ H1–H5 cũ.
+ LOẠI: beta có điều kiện, beta dạng bảng, beta toàn kỳ EBI tương đối, CV/Hình 5, hệ số chuẩn hóa, VIF, biến giả vùng + Wald,
+       Oaxaca–Blinder (Bảng 8, 8b, Hình 8), Hình 6–7.
+ PHỤ LỤC: MLD (A1), Gini theo nguồn (A2), beta tuyệt đối theo giai đoạn kèm loại HN&HCM (A3), FE bổ sung (A4), cắt ngang 2024 (A5).
+ MỚI: Bảng 2 độ phủ + tương quan hạng Spearman (2020–2021 = 0,946); mục 4.2 điểm gãy (3 phương diện, 3 hệ quả, cách xử lý,
+      kết luận nào được phép); mục 4.3 dữ liệu thiếu (10 tỉnh, không ngẫu nhiên, hướng lệch, phạm vi suy rộng 54–58 tỉnh);
+      mẫu cân bằng 53 tỉnh; FE 2021–2024, FE hạng phần trăm, FE bỏ mật độ DN, FE loại 2021, OLS 2018–2020.
+ Tài liệu tham khảo: 42 -> 34. Bỏ 9 (Blinder, Oaxaca, Jann, Galperin & Arcidiacono, Lin, Zhao, Phillips & Sul, Chinn & Fairlie,
+      Norris); thêm 1 (VECOM 2023 tách riêng, để dẫn số trang mô tả phương pháp; là file 16 trong kho). Không tài liệu mới
+      chưa kiểm chứng. Điểm nghi vấn "kỳ đầu áp dụng phương pháp mới" đã giải quyết (14/09/2026) bằng file gốc
+      D:\ai\thongke\Dulieu_EBI_2017_2025.xlsx: sheet 2021 là kỳ đầu tiên chỉ còn 3 trụ cột + thang mới (VECOM 2023 viết
+      "từ năm 2020" = năm khảo sát); kỳ 2025 lại đổi trọng số 0,1/0,6/0,3, xếp đủ 63 tỉnh, không nối vào chuỗi. Bài không còn
+      dấu [Cần kiểm tra lại].
+
+-----------------------------------------------------
+4. KẾT QUẢ CHÍNH CỦA v7 (số đã đối chiếu với bảng)
+-----------------------------------------------------
+ Gini EBI: 0,145/0,129/0,134/0,135 (2017–2020); 0,353/0,276/0,262/0,245 (2021–2024). Theil-T 0,047–0,034; 0,365–0,128.
+ Tỷ trọng giữa vùng (Theil) 31–37% mọi năm; MLD 37–44%; mẫu cân bằng 29–35%. Loại HN&HCM: Theil giảm 47% (2020), 56% (2024).
+ Đóng góp vào Th 2024: ĐNB 24,2%, ĐBSH 22,4% (Th_k 0,179 và 0,112); 4 vùng còn lại 16,5%.
+ FE 2019–2024 (N=331, 57 tỉnh): mật độ DN 0,253*** ; logistics 0,106** ; bán lẻ hiện đại −0,032** ; đô thị hóa −0,015** ;
+   hộ có máy tính 0,001 (ns). FE 2021–2024: không biến nào có ý nghĩa. FE hạng phần trăm: FDI 5,72***, bán lẻ −2,05**, DN ns.
+   OLS 2018–2020: mật độ DN 0,038***.
+
+-----------------------------------------------------
+5. THỨ TỰ CHẠY LẠI TOÀN BỘ v7 (trong thư mục v7)
+-----------------------------------------------------
+  python scripts/01_phan_tich_v7.py
+  python hinh-bai-bao/tao_hinh_v7.py
+  python scripts/02_bang_docx_v7.py
+  node   scripts/03_build_docx_v7.js                       -> Bai-bao-EBI-63-tinh-2017-2024-v7.docx
+  node   scripts/03_build_docx_v7.js bao_cao_chinh_sua_v7.js -> BAO-CAO-CHINH-SUA-V7.docx
+  python scripts/16_docx_sang_pdf_anh.py Bai-bao-EBI-63-tinh-2017-2024-v7.docx   (kiểm tra bố cục; cần MS Word)
+  python scripts/06_bang_trich_dan_v7.py -> python scripts/10_doi_chieu_pdf_v7.py -> python scripts/11_bang_kem_tai_lieu_v7.py
+ Cần: Python (pandas, statsmodels, linearmodels, scipy, openpyxl, pymupdf, matplotlib, pywin32), Node.js (gói docx có sẵn).
+
+-----------------------------------------------------
+6. FILE KẾ THỪA TỪ v6 CHƯA VIẾT LẠI THEO v7 (giữ nguyên để tra cứu)
+-----------------------------------------------------
+ Bai-bao-EBI-63-tinh-2017-2024.docx, ...-v2.docx        bài báo v6 (bản cũ và bản công thức OMML) — KHÔNG sửa
+ MO-TA-CONG-THUC-TINH.docx, HUONG-DAN-TINH-TUNG-BUOC.docx/.xlsx, SO-TINH-TOAN-DAY-DU-BAI-BAO.xlsx
+                                                        mô tả bộ phương pháp của v6 (gồm beta, Oaxaca, OLS gộp...). Chưa
+                                                        có bản v7 tương ứng; nếu cần, viết lại theo Bảng 7 (FE) và bộ công thức
+                                                        (1)–(8), (A1)–(A5) của v7.
+ Bang-doi-chieu-trich-dan.xlsx, ...-kem-tai-lieu.xlsx   bảng đối chiếu của v6 (42 tài liệu)
+ ket-qua/, hinh-bai-bao/hinh/, scripts/01–15 (không hậu tố v7)   pipeline và kết quả v6, giữ nguyên để đối chiếu
+ GHI-CHU-V6.txt                                         ghi chú v6 (lịch sử v2–v6)

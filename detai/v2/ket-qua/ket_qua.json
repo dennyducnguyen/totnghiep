@@ -1,0 +1,603 @@
+{
+ "top5_2024": [
+  [
+   "TP. Hồ Chí Minh",
+   87.0
+  ],
+  [
+   "Hà Nội",
+   84.0
+  ],
+  [
+   "Bình Dương",
+   51.0
+  ],
+  [
+   "Đà Nẵng",
+   47.0
+  ],
+  [
+   "Hải Phòng",
+   36.0
+  ]
+ ],
+ "bot5_2024": [
+  [
+   "Bắc Kạn",
+   11.0
+  ],
+  [
+   "Kon Tum",
+   13.0
+  ],
+  [
+   "Lạng Sơn",
+   13.0
+  ],
+  [
+   "Tuyên Quang",
+   13.0
+  ],
+  [
+   "Đắk Nông",
+   13.0
+  ]
+ ],
+ "ratio_max_median": {
+  "2017": 2.7971530249110317,
+  "2018": 2.3357041251778092,
+  "2019": 2.302387267904509,
+  "2020": 2.2386934673366836,
+  "2021": 11.68048359240069,
+  "2022": 5.558282208588956,
+  "2023": 5.627760252365931,
+  "2024": 4.35
+ },
+ "ratio_p90_p10": {
+  "2017": 1.6212694409415722,
+  "2018": 1.6350841057329215,
+  "2019": 1.6921326397919378,
+  "2020": 1.7398843930635837,
+  "2021": 2.318681318681319,
+  "2022": 2.5833333333333335,
+  "2023": 2.1863186318631875,
+  "2024": 2.142857142857143
+ },
+ "so_tinh_thieu_EBI": {
+  "2017": [
+   "Bạc Liêu",
+   "Cao Bằng",
+   "Hà Giang",
+   "Hậu Giang",
+   "Lai Châu",
+   "Sóc Trăng",
+   "Sơn La",
+   "Vĩnh Long",
+   "Điện Biên"
+  ],
+  "2018": [
+   "Bạc Liêu",
+   "Cao Bằng",
+   "Cà Mau",
+   "Hà Giang",
+   "Hậu Giang",
+   "Lai Châu",
+   "Sóc Trăng",
+   "Sơn La",
+   "Điện Biên"
+  ],
+  "2019": [
+   "Bạc Liêu",
+   "Cao Bằng",
+   "Cà Mau",
+   "Hà Giang",
+   "Hậu Giang",
+   "Lai Châu",
+   "Sóc Trăng",
+   "Sơn La",
+   "Điện Biên"
+  ],
+  "2020": [
+   "Bạc Liêu",
+   "Cao Bằng",
+   "Hà Giang",
+   "Hậu Giang",
+   "Lai Châu",
+   "Sóc Trăng",
+   "Sơn La",
+   "Điện Biên"
+  ],
+  "2021": [
+   "Bạc Liêu",
+   "Cao Bằng",
+   "Hà Giang",
+   "Lai Châu",
+   "Sóc Trăng",
+   "Sơn La",
+   "Điện Biên"
+  ],
+  "2022": [
+   "Bạc Liêu",
+   "Cao Bằng",
+   "Hà Giang",
+   "Lai Châu",
+   "Sóc Trăng",
+   "Sơn La",
+   "Điện Biên"
+  ],
+  "2023": [
+   "Cao Bằng",
+   "Hà Giang",
+   "Lai Châu",
+   "Sơn La",
+   "Điện Biên"
+  ],
+  "2024": [
+   "Cao Bằng",
+   "Hà Giang",
+   "Lai Châu",
+   "Sơn La",
+   "Điện Biên"
+  ]
+ },
+ "beta_panel": {
+  "beta": -0.10569386251776797,
+  "se": 0.020899488501864884,
+  "p": 4.253535582731234e-07,
+  "N": 332
+ },
+ "corr_2024": {
+  "EBI": 1.0,
+  "internet_user_pct": 0.607,
+  "it_skills_pct": 0.671,
+  "hh_computer_pct": 0.676,
+  "hh_internet_pct": 0.299
+ },
+ "wald_vung_M6": {
+  "stat": 17.47045512789446,
+  "p": 0.0036888116457720497
+ },
+ "core_vs_periphery_rel": {
+  "0": {
+   "2017": 88.9,
+   "2018": 90.2,
+   "2019": 89.8,
+   "2020": 90.1,
+   "2021": 70.1,
+   "2022": 77.5,
+   "2023": 79.7,
+   "2024": 80.8
+  },
+  "1": {
+   "2017": 124.1,
+   "2018": 121.4,
+   "2019": 122.3,
+   "2020": 122.1,
+   "2021": 168.6,
+   "2022": 151.7,
+   "2023": 149.0,
+   "2024": 146.3
+  }
+ },
+ "bang3": [
+  {
+   "nam": 2017,
+   "N": 54,
+   "Gini": 0.1454,
+   "Theil": 0.0472,
+   "Theil_between": 0.0154,
+   "Theil_within": 0.0318,
+   "Theil_between_share": 0.3257,
+   "MLD": 0.0398,
+   "MLD_between": 0.015,
+   "MLD_within": 0.0247,
+   "MLD_between_share": 0.3781,
+   "CV": 0.3479,
+   "SD_ln": 0.2605
+  },
+  {
+   "nam": 2018,
+   "N": 54,
+   "Gini": 0.1289,
+   "Theil": 0.0339,
+   "Theil_between": 0.0114,
+   "Theil_within": 0.0225,
+   "Theil_between_share": 0.3369,
+   "MLD": 0.0298,
+   "MLD_between": 0.0111,
+   "MLD_within": 0.0187,
+   "MLD_between_share": 0.3732,
+   "CV": 0.286,
+   "SD_ln": 0.2312
+  },
+  {
+   "nam": 2019,
+   "N": 54,
+   "Gini": 0.1337,
+   "Theil": 0.0345,
+   "Theil_between": 0.0121,
+   "Theil_within": 0.0224,
+   "Theil_between_share": 0.3499,
+   "MLD": 0.0309,
+   "MLD_between": 0.0118,
+   "MLD_within": 0.0191,
+   "MLD_between_share": 0.3824,
+   "CV": 0.2863,
+   "SD_ln": 0.237
+  },
+  {
+   "nam": 2020,
+   "N": 55,
+   "Gini": 0.1351,
+   "Theil": 0.0341,
+   "Theil_between": 0.0118,
+   "Theil_within": 0.0224,
+   "Theil_between_share": 0.3445,
+   "MLD": 0.031,
+   "MLD_between": 0.0115,
+   "MLD_within": 0.0195,
+   "MLD_between_share": 0.3718,
+   "CV": 0.2826,
+   "SD_ln": 0.2394
+  },
+  {
+   "nam": 2021,
+   "N": 56,
+   "Gini": 0.3528,
+   "Theil": 0.3649,
+   "Theil_between": 0.1128,
+   "Theil_within": 0.2521,
+   "Theil_between_share": 0.3092,
+   "MLD": 0.2363,
+   "MLD_between": 0.1039,
+   "MLD_within": 0.1324,
+   "MLD_between_share": 0.4398,
+   "CV": 1.2534,
+   "SD_ln": 0.5284
+  },
+  {
+   "nam": 2022,
+   "N": 56,
+   "Gini": 0.2763,
+   "Theil": 0.1664,
+   "Theil_between": 0.0602,
+   "Theil_within": 0.1062,
+   "Theil_between_share": 0.3615,
+   "MLD": 0.1302,
+   "MLD_between": 0.0573,
+   "MLD_within": 0.0729,
+   "MLD_between_share": 0.4404,
+   "CV": 0.7199,
+   "SD_ln": 0.451
+  },
+  {
+   "nam": 2023,
+   "N": 58,
+   "Gini": 0.2622,
+   "Theil": 0.1662,
+   "Theil_between": 0.0529,
+   "Theil_within": 0.1133,
+   "Theil_between_share": 0.3182,
+   "MLD": 0.1241,
+   "MLD_between": 0.0498,
+   "MLD_within": 0.0743,
+   "MLD_between_share": 0.4016,
+   "CV": 0.7375,
+   "SD_ln": 0.428
+  },
+  {
+   "nam": 2024,
+   "N": 58,
+   "Gini": 0.245,
+   "Theil": 0.128,
+   "Theil_between": 0.0473,
+   "Theil_within": 0.0807,
+   "Theil_between_share": 0.3695,
+   "MLD": 0.1035,
+   "MLD_between": 0.0451,
+   "MLD_within": 0.0583,
+   "MLD_between_share": 0.4361,
+   "CV": 0.6082,
+   "SD_ln": 0.4096
+  }
+ ],
+ "bang5b": [
+  {
+   "period": "2017–2020",
+   "N": 54,
+   "beta": -0.0425,
+   "se": 0.013,
+   "p": 0.0011,
+   "lam": 0.0455,
+   "half_life": 15.2273,
+   "R2": 0.1628,
+   "const": 0.2455,
+   "model": "Tuyệt đối",
+   "ycol": "EBI",
+   "b_ln_grdp": NaN,
+   "p_ln_grdp": NaN,
+   "b_dn_per_1000": NaN,
+   "p_dn_per_1000": NaN,
+   "b_urban_share_pct": NaN,
+   "p_urban_share_pct": NaN,
+   "b_trained_labor_pct": NaN,
+   "p_trained_labor_pct": NaN
+  },
+  {
+   "period": "2021–2024",
+   "N": 56,
+   "beta": -0.0888,
+   "se": 0.018,
+   "p": 0.0,
+   "lam": 0.1032,
+   "half_life": 6.7147,
+   "R2": 0.5283,
+   "const": 0.55,
+   "model": "Tuyệt đối",
+   "ycol": "EBI",
+   "b_ln_grdp": NaN,
+   "p_ln_grdp": NaN,
+   "b_dn_per_1000": NaN,
+   "p_dn_per_1000": NaN,
+   "b_urban_share_pct": NaN,
+   "p_urban_share_pct": NaN,
+   "b_trained_labor_pct": NaN,
+   "p_trained_labor_pct": NaN
+  },
+  {
+   "period": "2017–2024",
+   "N": 54,
+   "beta": 0.0705,
+   "se": 0.008,
+   "p": 0.0,
+   "lam": -0.0573,
+   "half_life": NaN,
+   "R2": 0.4897,
+   "const": -0.3272,
+   "model": "Tuyệt đối",
+   "ycol": "EBI_rel",
+   "b_ln_grdp": NaN,
+   "p_ln_grdp": NaN,
+   "b_dn_per_1000": NaN,
+   "p_dn_per_1000": NaN,
+   "b_urban_share_pct": NaN,
+   "p_urban_share_pct": NaN,
+   "b_trained_labor_pct": NaN,
+   "p_trained_labor_pct": NaN
+  },
+  {
+   "period": "2017–2020",
+   "N": 54,
+   "beta": -0.0425,
+   "se": 0.013,
+   "p": 0.0011,
+   "lam": 0.0455,
+   "half_life": 15.2273,
+   "R2": 0.1628,
+   "const": 0.1986,
+   "model": "Tuyệt đối",
+   "ycol": "EBI_rel",
+   "b_ln_grdp": NaN,
+   "p_ln_grdp": NaN,
+   "b_dn_per_1000": NaN,
+   "p_dn_per_1000": NaN,
+   "b_urban_share_pct": NaN,
+   "p_urban_share_pct": NaN,
+   "b_trained_labor_pct": NaN,
+   "p_trained_labor_pct": NaN
+  },
+  {
+   "period": "2021–2024",
+   "N": 56,
+   "beta": -0.0888,
+   "se": 0.018,
+   "p": 0.0,
+   "lam": 0.1032,
+   "half_life": 6.7147,
+   "R2": 0.5283,
+   "const": 0.4368,
+   "model": "Tuyệt đối",
+   "ycol": "EBI_rel",
+   "b_ln_grdp": NaN,
+   "p_ln_grdp": NaN,
+   "b_dn_per_1000": NaN,
+   "p_dn_per_1000": NaN,
+   "b_urban_share_pct": NaN,
+   "p_urban_share_pct": NaN,
+   "b_trained_labor_pct": NaN,
+   "p_trained_labor_pct": NaN
+  },
+  {
+   "period": "2017–2020",
+   "N": 53,
+   "beta": 0.0025,
+   "se": 0.0348,
+   "p": 0.9422,
+   "lam": -0.0025,
+   "half_life": NaN,
+   "R2": 0.3184,
+   "const": 0.0262,
+   "model": "Có điều kiện",
+   "ycol": "EBI",
+   "b_ln_grdp": 0.023,
+   "p_ln_grdp": 0.0642,
+   "b_dn_per_1000": -0.0036,
+   "p_dn_per_1000": 0.061,
+   "b_urban_share_pct": -0.0004,
+   "p_urban_share_pct": 0.1013,
+   "b_trained_labor_pct": 0.0001,
+   "p_trained_labor_pct": 0.866
+  },
+  {
+   "period": "2021–2024",
+   "N": 56,
+   "beta": -0.0492,
+   "se": 0.0367,
+   "p": 0.1797,
+   "lam": 0.0532,
+   "half_life": 13.0222,
+   "R2": 0.6091,
+   "const": 0.3423,
+   "model": "Có điều kiện",
+   "ycol": "EBI",
+   "b_ln_grdp": 0.0336,
+   "p_ln_grdp": 0.1137,
+   "b_dn_per_1000": -0.0088,
+   "p_dn_per_1000": 0.0225,
+   "b_urban_share_pct": 0.0007,
+   "p_urban_share_pct": 0.1552,
+   "b_trained_labor_pct": 0.0007,
+   "p_trained_labor_pct": 0.4777
+  },
+  {
+   "period": "2017–2024",
+   "N": 53,
+   "beta": 0.0503,
+   "se": 0.0232,
+   "p": 0.0303,
+   "lam": -0.0431,
+   "half_life": NaN,
+   "R2": 0.5347,
+   "const": -0.2737,
+   "model": "Có điều kiện",
+   "ycol": "EBI_rel",
+   "b_ln_grdp": 0.0081,
+   "p_ln_grdp": 0.3295,
+   "b_dn_per_1000": 0.0009,
+   "p_dn_per_1000": 0.5407,
+   "b_urban_share_pct": -0.0,
+   "p_urban_share_pct": 0.8743,
+   "b_trained_labor_pct": 0.0001,
+   "p_trained_labor_pct": 0.833
+  }
+ ],
+ "bang8": [
+  {
+   "sample": "2019–2024 (M2)",
+   "ref": "pooled",
+   "nA": 102,
+   "nB": 229,
+   "yA": 3.3129,
+   "yB": 2.8578,
+   "gap": 0.4552,
+   "endow": 0.3599,
+   "endow_se": 0.1293,
+   "coef": 0.0952,
+   "coef_se": 0.0598,
+   "endow_share": 0.7907,
+   "coef_share": 0.2093
+  },
+  {
+   "sample": "2019–2024 (M2)",
+   "ref": "A",
+   "nA": 102,
+   "nB": 229,
+   "yA": 3.3129,
+   "yB": 2.8578,
+   "gap": 0.4552,
+   "endow": 0.374,
+   "endow_se": 0.2409,
+   "coef": 0.0812,
+   "coef_se": 0.1938,
+   "endow_share": 0.8216,
+   "coef_share": 0.1784
+  },
+  {
+   "sample": "2018–2024 (M1)",
+   "ref": "pooled",
+   "nA": 119,
+   "nB": 265,
+   "yA": 3.3793,
+   "yB": 2.9461,
+   "gap": 0.4332,
+   "endow": 0.3464,
+   "endow_se": NaN,
+   "coef": 0.0868,
+   "coef_se": NaN,
+   "endow_share": 0.7996,
+   "coef_share": 0.2004
+  },
+  {
+   "sample": "2018–2024 (M1)",
+   "ref": "A",
+   "nA": 119,
+   "nB": 265,
+   "yA": 3.3793,
+   "yB": 2.9461,
+   "gap": 0.4332,
+   "endow": 0.3429,
+   "endow_se": NaN,
+   "coef": 0.0903,
+   "coef_se": NaN,
+   "endow_share": 0.7915,
+   "coef_share": 0.2085
+  },
+  {
+   "sample": "2021–2024 (M4)",
+   "ref": "pooled",
+   "nA": 68,
+   "nB": 156,
+   "yA": 3.0321,
+   "yB": 2.5144,
+   "gap": 0.5178,
+   "endow": 0.416,
+   "endow_se": NaN,
+   "coef": 0.1018,
+   "coef_se": NaN,
+   "endow_share": 0.8035,
+   "coef_share": 0.1965
+  },
+  {
+   "sample": "2021–2024 (M4)",
+   "ref": "A",
+   "nA": 68,
+   "nB": 156,
+   "yA": 3.0321,
+   "yB": 2.5144,
+   "gap": 0.5178,
+   "endow": 0.4371,
+   "endow_se": NaN,
+   "coef": 0.0806,
+   "coef_se": NaN,
+   "endow_share": 0.8443,
+   "coef_share": 0.1557
+  }
+ ],
+ "vif": [
+  {
+   "bien": "ln_grdp",
+   "VIF": 3.64
+  },
+  {
+   "bien": "dn_per_1000",
+   "VIF": 5.37
+  },
+  {
+   "bien": "urban_share_pct",
+   "VIF": 3.08
+  },
+  {
+   "bien": "trained_labor_pct",
+   "VIF": 3.89
+  },
+  {
+   "bien": "ln_freight",
+   "VIF": 1.99
+  },
+  {
+   "bien": "modern_retail_100k",
+   "VIF": 1.48
+  },
+  {
+   "bien": "ln_fdi_pc",
+   "VIF": 2.23
+  },
+  {
+   "bien": "hh_computer_pct",
+   "VIF": 3.7
+  }
+ ],
+ "N_M1": 384,
+ "N_M2": 331,
+ "N_M3": 278
+}

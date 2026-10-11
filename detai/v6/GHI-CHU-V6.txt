@@ -1,0 +1,230 @@
+PHIÊN BẢN v6 (09/09/2026) — BẢN ĐẦY ĐỦ, TỰ CHỨA
+=====================================================
+Chỉ cần thư mục này là có đủ: dữ liệu đầu vào, bài báo, hình, bảng số liệu, kho tài liệu tham chiếu,
+bảng đối chiếu trích dẫn, script tái tạo và ghi chú. Có thể copy nguyên thư mục v6 đi nơi khác và chạy lại
+toàn bộ (cần Python có pandas/statsmodels/openpyxl/pymupdf và Node.js; gói docx đã có sẵn trong scripts/node_modules).
+
+-----------------------------------------------------
+1. CẤU TRÚC THƯ MỤC
+-----------------------------------------------------
+ Bai-bao-EBI-63-tinh-2017-2024.docx          BÀI BÁO (bản chính) – 42 tài liệu tham khảo
+ Bang-doi-chieu-trich-dan-kem-tai-lieu.xlsx  BẢNG ĐỐI CHIẾU TRÍCH DẪN (bản chính, 4 sheet – xem mục 3)
+ Bang-doi-chieu-trich-dan.xlsx               bảng trung gian do script 06 sinh ra (đầu vào của script 11)
+ MO-TA-CONG-THUC-TINH.docx                   mô tả công thức tính (script 07)
+ Nghien_Cuu_Tai_Lieu_EBI.xlsx                ma trận tài liệu / phiếu đọc (đầu vào)
+ du-lieu-dau-vao/                             3 FILE ĐẦU VÀO GỐC (bổ sung 09/09/2026, trước đây chỉ nằm ở detai/):
+                                              EBI_NGTK_Panel_2017_2024.xlsx – bảng dữ liệu EBI + Niên giám 63 tỉnh
+                                              doi_chieu_citations.xlsx – 25 tài liệu đã đối chiếu nguyên văn
+                                              hdnc18062026.docx – hướng dẫn nghiên cứu ban đầu
+                                              (hàm tim_file trong script 01/04/06 tìm ở đây trước, rồi mới tới v6/ và detai/)
+ tai-lieu-doi-chieu/                          KHO TÀI LIỆU GỐC: 41 file (40 PDF + 1 DOCX), 95 MB
+   anh-quet/                                   26 ảnh PNG tách từ 6 PDF quét để đọc bằng vision
+ hinh-bai-bao/                                8 hình PNG (hinh/), tao_hinh.py, du_lieu/, HUONG-DAN-TAO-HINH.docx
+ ket-qua/                                     CSV các bảng, bang_docx.json, ket_qua.json, panel_phan_tich.csv,
+                                              manifest_tai_lieu.json, doi_chieu_pdf.json, vision_pdf_quet.json,
+                                              tai_lieu_bo_sung.json
+ scripts/                                     01–11 (thứ tự chạy ở mục 5)
+ ghi-chu-phien-ban-truoc/                     GHI-CHU-V2/V3/V4 để tra lịch sử
+
+-----------------------------------------------------
+2. v6 KHÁC GÌ SO VỚI CÁC BẢN TRƯỚC
+-----------------------------------------------------
+Nền: v4 (= v2 + bỏ cột vung_ebi không dùng [v3] + 6 sửa lỗi trích dẫn phát hiện khi đối chiếu bản gốc [v4]).
+Thêm trong v6:
+ (a) BỎ 9 TRÍCH DẪN theo quyết định của tác giả (08–09/09/2026), gỡ cả thân bài lẫn danh mục:
+     mã 05 Billon và cộng sự (2008)        mã 35 Tornatzky & Fleischer (1990)
+     mã 11 Cowell (2011)                   mã 42 CIEM (2023)  – file bổ sung không phải báo cáo CIEM, không ủng hộ câu trích
+     mã 12 Davis (1989)                    mã 43 Vu (2026)
+     mã 21 Lerman & Yitzhaki (1985)        mã 44 Vu và cộng sự (2025)
+                                           mã 47 Warschauer (2003)
+     Danh mục Tài liệu tham khảo: 51 → 42 mục. Chi tiết lý do: sheet Da_bo_khoi_bai trong file Excel.
+
+ (b) 7 CHỖ TRONG BÀI PHẢI VIẾT LẠI vì trích dẫn nằm giữa câu (scripts/noi_dung.js):
+     - Mục 1: xoá câu "CIEM (2023) cũng nhận diện chênh lệch về hạ tầng và công nghệ giữa các vùng miền…".
+     - Mục 2.1: "Warschauer (2003) và van Dijk (2006) phê phán cách hiểu nhị phân này" → "van Dijk (2006, 2020) phê phán…"
+       (van Dijk 2020 tr. 3 có đúng nội dung phê phán cách hiểu nhị phân – đã đối chiếu file bổ sung).
+     - Mục 2.2: bỏ "của Lerman và Yitzhaki (1985)", giữ mô tả phương pháp phân rã Gini theo nguồn.
+     - Mục 2.4: bỏ vế Billon; giữ và mở rộng vế Vicente & López (2011) theo đúng abstract bản gốc
+       ("khoảng cách vùng phản ánh một phần khoảng cách thu nhập").
+     - Mục 2.4: câu về khung TOE (Tornatzky) và TAM (Davis) viết lại thành cơ chế cấp doanh nghiệp,
+       dẫn Rogers (2003) – tài liệu kinh điển giữ lại – cho hiệu ứng học hỏi và hiệu ứng mạng.
+     - Mục 2.4: xoá câu về Vu và cộng sự (2025) và Vu (2026).
+     - Mục 3.3: "phân rã theo Theil (1967) và Cowell (2011)" → "phân rã theo Theil (1967)";
+       công thức Gini theo nguồn giữ nguyên, bỏ tên Lerman & Yitzhaki.
+     - Mục 5: bỏ "Vu (2026)" trong câu về thể chế địa phương (giữ Caragliu & Del Bo, 2025);
+       bỏ "Billon và cộng sự, 2008" trong hạn chế về phụ thuộc không gian (giữ Anselin, 1995).
+     - Bảng 4 (scripts/02_bang_docx.py): tiêu đề và ghi chú bỏ tên Lerman–Yitzhaki, ghi "phân rã Gini theo nguồn".
+     - MO-TA-CONG-THUC-TINH.docx (scripts/07_mo_ta_cong_thuc.js): mục 3.6 đổi "(Lerman – Yitzhaki, 1985)" thành
+       "(phân rã Gini theo nguồn)" cho đồng bộ với bài.
+
+ (c) GIỮ 2 TÀI LIỆU KINH ĐIỂN mà không cần bản gốc: mã 30 Rogers (2003), mã 33 Theil (1967).
+
+ (d) NHẬN 6 TÀI LIỆU TÁC GIẢ TỰ BỔ SUNG (08/09/2026) vào kho: mã 09 Caragliu & Del Bo, 24 Norris (bản quét, đã
+     đọc vision), 40 van Dijk 2020 (trích chương 1), 41 Vicente & López (bản working paper FUNCAS 483/2009),
+     48 Williamson 1965 (.docx toàn văn), 42 CIEM (đã bỏ – giữ file làm bằng chứng).
+
+ (e) Số liệu, 8 hình, các bảng kết quả: KHÔNG ĐỔI so với v2/v3/v4.
+
+-----------------------------------------------------
+3. FILE EXCEL Bang-doi-chieu-trich-dan-kem-tai-lieu.xlsx
+-----------------------------------------------------
+ Sheet Doi_chieu_trich_dan : 42 dòng = 42 tài liệu của bài. 12 cột gốc + 8 cột tham chiếu:
+     "Mã tài liệu" = tiền tố 2 chữ số trong tên file (mã cố định theo danh mục 51 ban đầu; STT cột A là số thứ tự
+     mới trong danh mục 42). Tên file là hyperlink mở thẳng file trong tai-lieu-doi-chieu/.
+     Màu: xanh lá = khớp nguyên văn; vàng = có file nhưng đoạn trong bảng là tóm tắt; cam = PDF quét đọc bằng vision;
+     tím = tác giả bổ sung; xanh dương = kinh điển không cần file.
+ Sheet Kho_tai_lieu        : kiểm kê 41 file trong tai-lieu-doi-chieu/ (mã, tác giả, năm, dung lượng, số trang, nguồn).
+ Sheet Da_bo_khoi_bai      : 9 trích dẫn đã bỏ, ngày chốt, lý do (riêng mã 42 ghi đầy đủ căn cứ).
+ Sheet Chu_thich           : giải nghĩa màu, danh sách 6 lỗi trích dẫn đã sửa, quy trình tái tạo.
+ Tình trạng: 40/42 tài liệu có file gốc, 2/42 kinh điển không cần file → 0 tài liệu thiếu.
+
+-----------------------------------------------------
+4. SÁU LỖI TRÍCH DẪN ĐÃ SỬA (kế thừa từ v4, đã đối chiếu bản gốc)
+-----------------------------------------------------
+ 1. QĐ 645/QĐ-TTg (mã 34): mục tiêu tổng quát không có cụm "kênh phân phối quan trọng"/"liên kết vùng" – trích lại nguyên văn.
+ 2. QĐ 1568/QĐ-BCT (mã 07): chỉ tiêu 50% giá trị giao dịch B2C ngoài Hà Nội/TP.HCM đã có từ QĐ 645 (mục II.3.a),
+    QĐ 1568 đặt lại mốc đó và nâng độ phủ cấp xã 50%→60% – viết lại Mục 1 và Mục 6 theo đúng văn bản.
+ 3. Fan và cộng sự 2024 (mã 13): phần kết quả tr. 13 cho chênh lệch giữa vùng ~72% (giảm), trong vùng ~21% (tăng),
+    ngược với tóm tắt của chính bài – đã mô tả lại ở Mục 2 và Mục 5.
+ 4. Wang 2024 (mã 46): "54–58%" → "khoảng 53–58% tùy năm" (Bảng 3 bản gốc).
+ 5. Özcan Alp & Baycan 2023 (mã 26): Quaestiones Geographicae 42(4), 43–61 (bản cũ ghi nhầm 42(3), 5–22).
+ 6. Bảng đối chiếu: tách phiếu đọc Anselin (1995) khỏi Phillips & Sul (2007); bỏ số trang sai 1326–1329 của
+    Sala-i-Martin (1996); thay tóm tắt bằng nguyên văn cho Blinder, Oaxaca, Fan, Wang 2024, Zhao.
+
+-----------------------------------------------------
+5. THỨ TỰ TÁI TẠO TOÀN BỘ (chạy trong thư mục v6)
+-----------------------------------------------------
+ python scripts/01_phan_tich.py
+ copy ket-qua\panel_phan_tich.csv hinh-bai-bao\du_lieu\panel_63_tinh_2017_2024.csv
+ python hinh-bai-bao\tao_hinh.py
+ python scripts/02_bang_docx.py
+ node   scripts/03_build_docx.js
+ node   scripts/05_huong_dan_hinh.js
+ node   scripts/07_mo_ta_cong_thuc.js
+ python scripts/06_bang_trich_dan.py
+ python scripts/10_doi_chieu_pdf.py
+ python scripts/11_bang_kem_tai_lieu.py
+ Kiểm tra 09/09/2026: chạy lại 01 và 06 từ v6 (đọc đầu vào ở du-lieu-dau-vao/) cho kết quả giống hệt.
+ (script 08 chỉ dùng khi cần tải lại kho tài liệu; script 09 để tách PDF quét thành ảnh:
+  python scripts/09_pdf_sang_anh.py <mã> <trang đầu> <trang cuối> [dpi])
+
+-----------------------------------------------------
+6. BỔ SUNG 12/09/2026 – TÀI LIỆU GIẢI THÍCH CÁCH TÍNH
+-----------------------------------------------------
+ MO-TA-CONG-THUC-TINH.docx        : thêm mục 8 "Các thống kê phụ trợ khác xuất hiện trong bài" (thống kê mô tả Bảng 1,
+                                    tỷ số max/trung vị và P90/P10, trung bình vùng theo giai đoạn, đóng góp từng vùng vào
+                                    phần trong vùng, khoảng cách thô lõi–ngoại vi, hệ số tương quan, SE/p/dấu sao/R²/N,
+                                    cách đọc hệ số khi biến phụ thuộc là ln). Sau bổ sung, file phủ đủ mọi phép tính
+                                    có trong bài (đã rà từng bảng 1–9, hình 1–8, phương trình (1)–(4)).
+ HUONG-DAN-TINH-TUNG-BUOC.docx    : MỚI – hướng dẫn cho người mới, song ngữ thuật ngữ. Mỗi phương pháp: nằm ở mục/trang/
+                                    bảng/hình nào của bài → trả lời câu hỏi gì → công thức + nghĩa ký hiệu → tính từng bước
+                                    trên ví dụ 6 tỉnh số thật → cách đọc → con số thật trong bài → bẫy. Có bản đồ bài báo
+                                    (mục 0) và bảng thuật ngữ (mục 10). Số trang lấy từ bản in PDF của bài (25 trang, dò bằng scripts/15_do_so_trang.py).
+ HUONG-DAN-TINH-TUNG-BUOC.xlsx    : MỚI – sổ Excel cùng bộ số 6 tỉnh, 9 sheet = 9 phương pháp, mọi bước là công thức Excel
+                                    (ô vàng = đầu vào, xanh = công thức, xám = kết quả). Đã mở bằng Excel thật để tính lại
+                                    và lưu giá trị; đối chiếu khớp với Python (script 12).
+ ket-qua/vi_du_tung_buoc.json     : số liệu từng bước của ví dụ (nguồn chung cho Word và Excel)
+ ket-qua/so_trang_bai_bao.json    : số trang của từng mục/bảng/hình/phương trình trong bản in PDF
+ ket-qua/Bai-bao-ban-in-PDF-de-tra-so-trang.pdf : bản PDF xuất từ Word ngày 12/09/2026 để dò số trang
+ scripts/12_vi_du_tung_buoc.py    : tính ví dụ + sinh sổ Excel      scripts/13_huong_dan_tung_buoc.js : dựng Word hướng dẫn
+ Chạy lại (sau bước 07 trong mục 5):  python scripts/12_vi_du_tung_buoc.py  →  node scripts/13_huong_dan_tung_buoc.js
+ (số trang: xuất PDF từ Word rồi chạy đoạn dò trang – xem đầu script 13 – chỉ cần làm lại khi bài đổi bố cục)
+
+-----------------------------------------------------
+7. BỔ SUNG 12/09/2026 – SỔ TÍNH TOÁN ĐẦY ĐỦ "LÀM THẬT"
+-----------------------------------------------------
+ SO-TINH-TOAN-DAY-DU-BAI-BAO.xlsx : sổ Excel TOÀN QUY MÔ (63 tỉnh × 8 năm), 12 sheet, ~56.900 công thức, 7 biểu đồ.
+   Sheet 1_Du_lieu = dữ liệu gốc + biến dẫn xuất (ln, trễ 1 năm bằng công thức); các sheet 2–10 = từng Bảng/Hình của bài:
+   Bảng 1 (mô tả), Bảng 2 + Hình 2 (EBI tương đối), Bảng 3 + Hình 3–4 (Gini, CV, Theil, MLD, phân rã vùng, bỏ HN&HCM),
+   Bảng 4 (Gini theo trụ cột S·G·R), Hình 5 (sigma), Bảng 5/5b + Hình 6–7 (beta: SLOPE/LINEST + đường xu hướng),
+   Bảng 6/7/9 (OLS M1–M6 qua LINEST, hệ số chuẩn hóa, tương quan), Bảng 8/8b + Hình 8 (Oaxaca), số liệu khác (top/bottom 5,
+   max/trung vị, P90/P10, lõi–ngoại vi, tỉnh thiếu).
+   Màu: vàng = nhập; xanh = công thức; xám = kết quả dẫn trong bài; CAM = dán từ Python vì Excel không có hàm
+   (SE cụm theo tỉnh, p-value HC1, VIF, Wald, FE tỉnh M7, β* tham chiếu và bootstrap của Oaxaca, bảng động beta).
+   Sheet 11_Doi_chieu: 147 con số Excel so với Python → 147/147 khớp (đã tính lại bằng Excel thật, 0 ô lỗi, lưu giá trị).
+ scripts/14_so_tinh_day_du.py       : dựng sổ này từ ket-qua/ (chạy sau 01). Lưu ý kỹ thuật: LINEST trả hệ số theo thứ tự
+                                      ngược cột X (cột j trong m cột → vị trí m−j+1); hàm đời mới cần tiền tố _xlfn.
+
+-----------------------------------------------------
+8. SỬA LỖI SỐ LIỆU TRONG THÂN BÀI – 12/09/2026 (sau khi dựng sổ tính toàn quy mô)
+-----------------------------------------------------
+Đối chiếu từng ô của Bảng 1–9 và từng câu có số trong thân bài với kết quả tính lại.
+KẾT QUẢ: toàn bộ 9 bảng KHỚP TUYỆT ĐỐI; 10 chỗ sai nằm ở các câu diễn giải viết tay, đã sửa trong
+scripts/noi_dung.js và scripts/02_bang_docx.py:
+
+ 1. Mục 4.2 – "B2B vẫn là trụ cột bất bình đẳng nhất (2021–2024)": SAI 2/4 năm.
+    Thực tế: 2021 B2C cao nhất (0,480 > 0,442); 2022 B2B (0,308); 2023 NNL&HT cao nhất (0,299 > 0,274); 2024 B2B (0,340).
+    -> Viết lại: B2B là trụ cột ĐÓNG GÓP lớn nhất cả 4 năm (39,6–48,1%) nhưng chỉ có Gini cao nhất ở 2022 và 2024.
+ 2. Mục 4.2 – "NNL&HT vượt B2C trong hai năm 2023–2024" -> đúng là BA năm 2022–2024 (2022: 0,294 > 0,262).
+ 3. Mục 4.3 (Hình 6) – "Hà Nội, TP.HCM và Đà Nẵng, vốn đã ở mức 75–89 điểm": Đà Nẵng chỉ 52,8 (2017)–58,4 (2020).
+    -> Tách riêng Đà Nẵng; ghi tốc độ tăng chính xác 15,2% / 14,6% / 4,1% / 4,2% / 3,4%.
+ 4. Mục 4.6 – "41 tỉnh vùng ngoại vi" -> 40 tỉnh (mẫu 2019–2024 có 17 lõi + 40 ngoại vi = 57 tỉnh).
+ 5. Mục 4.1 – "1,98 cho B2C" mâu thuẫn với Bảng 2 của chính bài (1,99); giá trị đúng 1,9858 -> 1,99.
+ 6. Mục 4.1 – "Theil giảm 55% năm 2024" -> 55,8%, làm tròn 56%.
+ 7. Mục 4.3 (Hình 7) – "tăng 35–47%/năm" -> dải thực 32,6–47,1%, ghi 33–47%; thêm số của Đắk Lắk (47,1%), Lào Cai (46,5%).
+ 8. Mục 4.5 – "thấp hơn Đông Nam Bộ từ 42% đến 62%" dễ hiểu nhầm (đó là ĐIỂM LOGARIT).
+    -> "thấp hơn 0,42–0,62 điểm logarit, tương đương EBI thấp hơn 34–46%".
+ 9. Ghi chú Bảng 4 – bổ sung: cột "Gini EBI" của Bảng 4 tính trên EBI TÁI TẠO từ trụ cột nên lệch nhẹ so với
+    cột Gini của Bảng 3 (tính trên EBI công bố); chỉ thấy được ở năm 2023 (0,258 so với 0,262), do VECOM làm tròn.
+10. Kéo theo trong HUONG-DAN-TINH-TUNG-BUOC.docx: sửa "84/23,3" -> 84/23,086 = 364 điểm (3,64 lần);
+    cập nhật số trang bài báo 24 -> 25; sửa câu "B2B 2024 cao nhất" thành có kèm ngoại lệ 2021, 2023;
+    sửa cách đọc hệ số vùng (điểm logarit vs %); gộp số trang trùng ("tr. 15" thay vì "15, 15").
+    MO-TA-CONG-THUC-TINH.docx mục 8.8 cũng sửa ví dụ đọc hệ số biến giả vùng cho khớp.
+
+SỐ LIỆU GỐC KHÔNG ĐỔI: không chạy lại 01_phan_tich.py; mọi CSV trong ket-qua/, 8 hình PNG và
+SO-TINH-TOAN-DAY-DU-BAI-BAO.xlsx giữ nguyên (chỉ sửa câu chữ trong bài, không sửa phép tính).
+
+Các file đã dựng lại ngày 12/09/2026:
+  Bai-bao-EBI-63-tinh-2017-2024.docx (25 trang)      <- 02 + 03
+  MO-TA-CONG-THUC-TINH.docx                          <- 07
+  HUONG-DAN-TINH-TUNG-BUOC.docx                      <- 13 (sau khi chạy 15 để lấy số trang mới)
+  Bang-doi-chieu-trich-dan.xlsx                      <- 06 (trích lại câu từ thân bài đã sửa)
+  Bang-doi-chieu-trich-dan-kem-tai-lieu.xlsx         <- 10 + 11
+  ket-qua/Bai-bao-ban-in-PDF-de-tra-so-trang.pdf, ket-qua/so_trang_bai_bao.json, ket-qua/bang_docx.json
+
+THỨ TỰ CHẠY LẠI ĐẦY ĐỦ (cập nhật, thay cho mục 5):
+  python scripts/01_phan_tich.py
+  copy ket-qua\panel_phan_tich.csv hinh-bai-bao\du_lieu\panel_63_tinh_2017_2024.csv
+  python hinh-bai-bao\tao_hinh.py
+  python scripts/02_bang_docx.py
+  node   scripts/03_build_docx.js
+  (xuất PDF bài báo từ Word)  ->  python scripts/15_do_so_trang.py
+  node   scripts/05_huong_dan_hinh.js
+  node   scripts/07_mo_ta_cong_thuc.js
+  python scripts/12_vi_du_tung_buoc.py
+  node   scripts/13_huong_dan_tung_buoc.js
+  python scripts/14_so_tinh_day_du.py
+  python scripts/06_bang_trich_dan.py
+  python scripts/10_doi_chieu_pdf.py
+  python scripts/11_bang_kem_tai_lieu.py
+
+-----------------------------------------------------
+9. BỔ SUNG 13/09/2026 – BÀI BÁO BẢN "v2": CÔNG THỨC CHUẨN TOÁN HỌC
+-----------------------------------------------------
+File mới: Bai-bao-EBI-63-tinh-2017-2024-v2.docx (file bài báo cũ giữ nguyên, không ghi đè).
+Khác bản cũ CHỈ ở Mục 3.1, Mục 3.3 và ghi chú Bảng 2, 3, 4, 5, 7, 8; Kết quả, Thảo luận, TLTK, bảng số, hình giữ nguyên.
+ - Mọi công thức là phương trình Word gốc (OMML): sửa được bằng Equation Editor của Word
+   (phân số, Σ có cận, căn, chỉ số trên/dưới, gạch ngang trên đầu ȳ, X̄, mũ β̂, ngoặc tự giãn).
+ - 16 phương trình đánh số (1)–(16) căn phải; mỗi phương trình kèm danh sách "trong đó:" giải thích từng ký hiệu,
+   thêm dạng khai triển / viết gọn khi có ý nghĩa (Theil: Th = Th_W + Th_B; Oaxaca: Ȳ_L − Ȳ_N = E + C).
+   (1) EBI = Σ w_k X_k      (2) EBI tương đối        (3) Gini               (4) Theil-T      (5) MLD
+   (6) phân rã Theil        (7) phân rã MLD          (8) Gini theo nguồn    (9) CV, σ        (10) hội tụ beta
+   (11) λ, t½               (12) beta dạng bảng      (13) OLS gộp           (14) OLS + biến giả vùng
+   (15) Oaxaca–Blinder      (16) phần nguồn lực theo từng biến
+ - Đổi ký hiệu chỉ số Theil-T từ T thành Th (T là độ dài giai đoạn trong phương trình hội tụ beta).
+ - Mục 3.3 chia 3 tiểu mục: 3.3.1 (RQ1), 3.3.2 (RQ2), 3.3.3 (RQ3).
+ - Sửa lỗi của bản cũ: phương trình Oaxaca in ra "X̄_{L}′(β_{L} − β)" (lộ ký hiệu _{L}, mất dấu * của β*)
+   vì markup *nghiêng* nuốt dấu *.
+ - Ghi chú Bảng 7: "χ²(5) = 17.47, p = 0.004" -> "17,47", "0,004" (dấu phẩy thập phân như toàn bài).
+ - Lời giải thích đã đối chiếu với cài đặt trong scripts/01_phan_tich.py (σ là độ lệch chuẩn mẫu, chia N−1;
+   s_k = tỷ trọng tổng điểm EBI của vùng; β* từ mô hình gộp có biến chỉ báo nhóm; beta bảng loại tăng trưởng
+   2020→2021; GRDP/người năm 2018 cho gốc 2017...). KHÔNG thay đổi số liệu nào.
+Script mới (bản cũ 03_build_docx.js / noi_dung.js giữ nguyên, vẫn dựng lại được file cũ):
+ scripts/noi_dung_v2.js        nội dung bài v2; markup mới: $ký hiệu$, {{m:khóa}}, {{eq:khóa}}; khối eq / where
+ scripts/cong_thuc_v2.js       từ điển công thức (mỗi khóa một công thức)
+ scripts/cong_thuc_omml.js     bộ dựng OMML (phân số, Σ, căn, gạch trên, mũ, ngoặc)
+ scripts/ghi_chu_bang_v2.js    ghi chú bảng dẫn chiếu số phương trình
+ scripts/03_build_docx_v2.js   dựng file; tự đánh số phương trình; từ chối ghi đè file bài báo cũ
+Chạy:  node scripts/03_build_docx_v2.js     (chạy sau 02_bang_docx.py nếu số liệu bảng thay đổi)
+Sửa một công thức: sửa khóa tương ứng trong cong_thuc_v2.js rồi chạy lại. Thêm/bớt phương trình thì số (n) và mọi
+dẫn chiếu {{eq:...}} trong bài và ghi chú bảng tự cập nhật.

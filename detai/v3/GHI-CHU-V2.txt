@@ -1,0 +1,23 @@
+Phiên bản v2 (05/09/2026) chứa toàn bộ sản phẩm của đề tài:
+ - Bai-bao-EBI-63-tinh-2017-2024.docx : bài báo, 8 hình tách riêng (không ghép tiểu đồ), mỗi hình có chú thích và đoạn giải thích riêng
+ - Bang-doi-chieu-trich-dan.xlsx      : bảng đối chiếu 51 tài liệu trích dẫn (mới; tạo bằng scripts/06_bang_trich_dan.py)
+ - hinh-bai-bao/                       : tao_hinh.py tạo 8 hình vào hinh/, chay_tao_hinh.bat, HUONG-DAN-TAO-HINH.docx, du_lieu/
+ - scripts/                            : 01_phan_tich.py, 02_bang_docx.py, 03_build_docx.js, noi_dung.js, 04_bo_sung_tai_lieu.py,
+                                         05_huong_dan_hinh.js, 06_bang_trich_dan.py (+ node_modules có gói docx)
+ - ket-qua/                            : bảng số liệu CSV, bang_docx.json, panel_phan_tich.csv
+ - Nghien_Cuu_Tai_Lieu_EBI.xlsx        : ma trận tài liệu (đã thêm sheet Kiem_Chung_E1_E6, Tai_Lieu_Thay_The_2026)
+ - bai-bao-mau/                         : 3 bài báo mẫu đã đọc
+
+Ba file đầu vào gốc do người dùng cung cấp KHÔNG sao chép vào v2 (chỉ nằm ở thư mục cha detai/):
+ EBI_NGTK_Panel_2017_2024.xlsx, doi_chieu_citations.xlsx, hdnc18062026.docx.
+ Các script trong v2 tự tìm những file này ở detai/ khi không thấy trong v2 (hàm tim_file).
+ Mọi thứ khác (kể cả Nghien_Cuu_Tai_Lieu_EBI.xlsx đã bổ sung 2 sheet và bai-bao-mau/) đều có trong v2.
+
+Thứ tự tái tạo toàn bộ (chạy trong thư mục v2):
+ python scripts/01_phan_tich.py
+ copy ket-qua\panel_phan_tich.csv hinh-bai-bao\du_lieu\panel_63_tinh_2017_2024.csv
+ python hinh-bai-bao\tao_hinh.py
+ python scripts/02_bang_docx.py
+ node scripts/03_build_docx.js
+ node scripts/05_huong_dan_hinh.js
+ python scripts/06_bang_trich_dan.py

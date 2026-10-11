@@ -1,0 +1,494 @@
+{
+ "so_tinh_thieu_EBI": {
+  "2017": [
+   "Bạc Liêu",
+   "Cao Bằng",
+   "Hà Giang",
+   "Hậu Giang",
+   "Lai Châu",
+   "Sóc Trăng",
+   "Sơn La",
+   "Vĩnh Long",
+   "Điện Biên"
+  ],
+  "2018": [
+   "Bạc Liêu",
+   "Cao Bằng",
+   "Cà Mau",
+   "Hà Giang",
+   "Hậu Giang",
+   "Lai Châu",
+   "Sóc Trăng",
+   "Sơn La",
+   "Điện Biên"
+  ],
+  "2019": [
+   "Bạc Liêu",
+   "Cao Bằng",
+   "Cà Mau",
+   "Hà Giang",
+   "Hậu Giang",
+   "Lai Châu",
+   "Sóc Trăng",
+   "Sơn La",
+   "Điện Biên"
+  ],
+  "2020": [
+   "Bạc Liêu",
+   "Cao Bằng",
+   "Hà Giang",
+   "Hậu Giang",
+   "Lai Châu",
+   "Sóc Trăng",
+   "Sơn La",
+   "Điện Biên"
+  ],
+  "2021": [
+   "Bạc Liêu",
+   "Cao Bằng",
+   "Hà Giang",
+   "Lai Châu",
+   "Sóc Trăng",
+   "Sơn La",
+   "Điện Biên"
+  ],
+  "2022": [
+   "Bạc Liêu",
+   "Cao Bằng",
+   "Hà Giang",
+   "Lai Châu",
+   "Sóc Trăng",
+   "Sơn La",
+   "Điện Biên"
+  ],
+  "2023": [
+   "Cao Bằng",
+   "Hà Giang",
+   "Lai Châu",
+   "Sơn La",
+   "Điện Biên"
+  ],
+  "2024": [
+   "Cao Bằng",
+   "Hà Giang",
+   "Lai Châu",
+   "Sơn La",
+   "Điện Biên"
+  ]
+ },
+ "tinh_thieu_vung": {
+  "TDMNPB": [
+   "Cao Bằng",
+   "Hà Giang",
+   "Lai Châu",
+   "Sơn La",
+   "Điện Biên"
+  ],
+  "ĐBSCL": [
+   "Bạc Liêu",
+   "Cà Mau",
+   "Hậu Giang",
+   "Sóc Trăng",
+   "Vĩnh Long"
+  ]
+ },
+ "tinh_du_8_nam": 53,
+ "tinh_khong_du_8_nam": [
+  "Bạc Liêu",
+  "Cà Mau",
+  "Hậu Giang",
+  "Sóc Trăng",
+  "Vĩnh Long"
+ ],
+ "N_tinh_nam": 445,
+ "spearman": {
+  "2017-2020": {
+   "N": 54,
+   "rho": 0.9235740436787647
+  },
+  "2020-2021": {
+   "N": 55,
+   "rho": 0.9459327826810401
+  },
+  "2021-2024": {
+   "N": 56,
+   "rho": 0.9344902633188826
+  },
+  "2017-2024": {
+   "N": 54,
+   "rho": 0.8986913288079832
+  }
+ },
+ "top5_2024": [
+  [
+   "TP. Hồ Chí Minh",
+   87.0
+  ],
+  [
+   "Hà Nội",
+   84.0
+  ],
+  [
+   "Bình Dương",
+   51.0
+  ],
+  [
+   "Đà Nẵng",
+   47.0
+  ],
+  [
+   "Hải Phòng",
+   36.0
+  ]
+ ],
+ "bot5_2024": [
+  [
+   "Bắc Kạn",
+   11.0
+  ],
+  [
+   "Kon Tum",
+   13.0
+  ],
+  [
+   "Lạng Sơn",
+   13.0
+  ],
+  [
+   "Tuyên Quang",
+   13.0
+  ],
+  [
+   "Đắk Nông",
+   13.0
+  ]
+ ],
+ "core_vs_periphery_rel": {
+  "0": {
+   "2017": 88.9,
+   "2018": 90.2,
+   "2019": 89.8,
+   "2020": 90.1,
+   "2021": 70.1,
+   "2022": 77.5,
+   "2023": 79.7,
+   "2024": 80.8
+  },
+  "1": {
+   "2017": 124.1,
+   "2018": 121.4,
+   "2019": 122.3,
+   "2020": 122.1,
+   "2021": 168.6,
+   "2022": 151.7,
+   "2023": 149.0,
+   "2024": 146.3
+  }
+ },
+ "bang4": [
+  {
+   "nam": 2017,
+   "N": 54,
+   "Gini": 0.1454,
+   "Theil": 0.0472,
+   "Theil_between": 0.0154,
+   "Theil_within": 0.0318,
+   "Theil_between_share": 0.3257,
+   "SD_ln": 0.2605,
+   "CV": 0.3479,
+   "MLD": 0.0398,
+   "MLD_between_share": 0.3781,
+   "Gini_ex2": 0.1037,
+   "Theil_ex2": 0.0187,
+   "between_share_ex2": 0.32,
+   "SD_ln_ex2": 0.1844,
+   "N_bal": 53,
+   "Gini_bal": 0.144,
+   "Theil_bal": 0.0467,
+   "between_share_bal": 0.3217
+  },
+  {
+   "nam": 2018,
+   "N": 54,
+   "Gini": 0.1289,
+   "Theil": 0.0339,
+   "Theil_between": 0.0114,
+   "Theil_within": 0.0225,
+   "Theil_between_share": 0.3369,
+   "SD_ln": 0.2312,
+   "CV": 0.286,
+   "MLD": 0.0298,
+   "MLD_between_share": 0.3732,
+   "Gini_ex2": 0.0971,
+   "Theil_ex2": 0.0156,
+   "between_share_ex2": 0.308,
+   "SD_ln_ex2": 0.172,
+   "N_bal": 53,
+   "Gini_bal": 0.1291,
+   "Theil_bal": 0.0339,
+   "between_share_bal": 0.3325
+  },
+  {
+   "nam": 2019,
+   "N": 54,
+   "Gini": 0.1337,
+   "Theil": 0.0345,
+   "Theil_between": 0.0121,
+   "Theil_within": 0.0224,
+   "Theil_between_share": 0.3499,
+   "SD_ln": 0.237,
+   "CV": 0.2863,
+   "MLD": 0.0309,
+   "MLD_between_share": 0.3824,
+   "Gini_ex2": 0.1039,
+   "Theil_ex2": 0.0174,
+   "between_share_ex2": 0.3192,
+   "SD_ln_ex2": 0.1828,
+   "N_bal": 53,
+   "Gini_bal": 0.1338,
+   "Theil_bal": 0.0345,
+   "between_share_bal": 0.3459
+  },
+  {
+   "nam": 2020,
+   "N": 55,
+   "Gini": 0.1351,
+   "Theil": 0.0341,
+   "Theil_between": 0.0118,
+   "Theil_within": 0.0224,
+   "Theil_between_share": 0.3445,
+   "SD_ln": 0.2394,
+   "CV": 0.2826,
+   "MLD": 0.031,
+   "MLD_between_share": 0.3718,
+   "Gini_ex2": 0.1068,
+   "Theil_ex2": 0.018,
+   "between_share_ex2": 0.3094,
+   "SD_ln_ex2": 0.1889,
+   "N_bal": 53,
+   "Gini_bal": 0.1331,
+   "Theil_bal": 0.0334,
+   "between_share_bal": 0.3439
+  },
+  {
+   "nam": 2021,
+   "N": 56,
+   "Gini": 0.3528,
+   "Theil": 0.3649,
+   "Theil_between": 0.1128,
+   "Theil_within": 0.2521,
+   "Theil_between_share": 0.3092,
+   "SD_ln": 0.5284,
+   "CV": 1.2534,
+   "MLD": 0.2363,
+   "MLD_between_share": 0.4398,
+   "Gini_ex2": 0.1819,
+   "Theil_ex2": 0.065,
+   "between_share_ex2": 0.284,
+   "SD_ln_ex2": 0.3138,
+   "N_bal": 53,
+   "Gini_bal": 0.3563,
+   "Theil_bal": 0.3682,
+   "between_share_bal": 0.298
+  },
+  {
+   "nam": 2022,
+   "N": 56,
+   "Gini": 0.2763,
+   "Theil": 0.1664,
+   "Theil_between": 0.0602,
+   "Theil_within": 0.1062,
+   "Theil_between_share": 0.3615,
+   "SD_ln": 0.451,
+   "CV": 0.7199,
+   "MLD": 0.1302,
+   "MLD_between_share": 0.4404,
+   "Gini_ex2": 0.1929,
+   "Theil_ex2": 0.0603,
+   "between_share_ex2": 0.3453,
+   "SD_ln_ex2": 0.3338,
+   "N_bal": 53,
+   "Gini_bal": 0.2759,
+   "Theil_bal": 0.1657,
+   "between_share_bal": 0.3486
+  },
+  {
+   "nam": 2023,
+   "N": 58,
+   "Gini": 0.2622,
+   "Theil": 0.1662,
+   "Theil_between": 0.0529,
+   "Theil_within": 0.1133,
+   "Theil_between_share": 0.3182,
+   "SD_ln": 0.428,
+   "CV": 0.7375,
+   "MLD": 0.1241,
+   "MLD_between_share": 0.4016,
+   "Gini_ex2": 0.1719,
+   "Theil_ex2": 0.051,
+   "between_share_ex2": 0.2798,
+   "SD_ln_ex2": 0.2981,
+   "N_bal": 53,
+   "Gini_bal": 0.2615,
+   "Theil_bal": 0.1657,
+   "between_share_bal": 0.2886
+  },
+  {
+   "nam": 2024,
+   "N": 58,
+   "Gini": 0.245,
+   "Theil": 0.128,
+   "Theil_between": 0.0473,
+   "Theil_within": 0.0807,
+   "Theil_between_share": 0.3695,
+   "SD_ln": 0.4096,
+   "CV": 0.6082,
+   "MLD": 0.1035,
+   "MLD_between_share": 0.4361,
+   "Gini_ex2": 0.1802,
+   "Theil_ex2": 0.0566,
+   "between_share_ex2": 0.3377,
+   "SD_ln_ex2": 0.3142,
+   "N_bal": 53,
+   "Gini_bal": 0.245,
+   "Theil_bal": 0.1276,
+   "between_share_bal": 0.3427
+  }
+ ],
+ "hausman": {
+  "stat": 72.43035345522274,
+  "df": 8,
+  "p": 1.6103784972187896e-12
+ },
+ "within_sd": {
+  "ln_grdp": 0.1462,
+  "dn_per_1000": 0.4766,
+  "urban_share_pct": 2.211,
+  "trained_labor_pct": 2.5746,
+  "ln_freight": 0.2052,
+  "modern_retail_100k": 0.3865,
+  "ln_fdi_pc": 0.3272,
+  "hh_computer_pct": 3.0255
+ },
+ "overall_sd": {
+  "ln_grdp": 0.4302,
+  "dn_per_1000": 4.9112,
+  "urban_share_pct": 17.5986,
+  "trained_labor_pct": 8.5912,
+  "ln_freight": 0.9541,
+  "modern_retail_100k": 1.2439,
+  "ln_fdi_pc": 1.5253,
+  "hh_computer_pct": 8.9644
+ },
+ "within_sd_ln_ebi": 0.6049996379563543,
+ "vif_max": 5.369731171279747,
+ "corr_2024": {
+  "EBI": 1.0,
+  "internet_user_pct": 0.607,
+  "it_skills_pct": 0.671,
+  "hh_computer_pct": 0.676,
+  "hh_internet_pct": 0.299,
+  "dn_per_1000": 0.948
+ },
+ "oaxaca_bo_sung": [
+  {
+   "gap": 0.455,
+   "endow": 0.36,
+   "coef": 0.095,
+   "endow_share": 0.791,
+   "nA": 102,
+   "nB": 229,
+   "endow_dn_share": 0.694,
+   "sample": "2019–2024 đầy đủ",
+   "ref": "pooled"
+  },
+  {
+   "gap": 0.455,
+   "endow": 0.374,
+   "coef": 0.081,
+   "endow_share": 0.822,
+   "nA": 102,
+   "nB": 229,
+   "endow_dn_share": 0.864,
+   "sample": "2019–2024 đầy đủ",
+   "ref": "A"
+  },
+  {
+   "gap": 0.309,
+   "endow": 0.214,
+   "coef": 0.095,
+   "endow_share": 0.693,
+   "nA": 90,
+   "nB": 229,
+   "endow_dn_share": 0.453,
+   "sample": "2019–2024 loại HN & TP.HCM",
+   "ref": "pooled"
+  },
+  {
+   "gap": 0.309,
+   "endow": 0.208,
+   "coef": 0.101,
+   "endow_share": 0.673,
+   "nA": 90,
+   "nB": 229,
+   "endow_dn_share": 0.496,
+   "sample": "2019–2024 loại HN & TP.HCM",
+   "ref": "A"
+  },
+  {
+   "gap": 0.283,
+   "endow": 0.203,
+   "coef": 0.08,
+   "endow_share": 0.718,
+   "nA": 34,
+   "nB": 73,
+   "endow_dn_share": 0.368,
+   "sample": "2019–2020 (trước đổi PP)",
+   "ref": "pooled"
+  },
+  {
+   "gap": 0.283,
+   "endow": 0.251,
+   "coef": 0.032,
+   "endow_share": 0.886,
+   "nA": 34,
+   "nB": 73,
+   "endow_dn_share": 0.54,
+   "sample": "2019–2020 (trước đổi PP)",
+   "ref": "A"
+  },
+  {
+   "gap": 0.518,
+   "endow": 0.416,
+   "coef": 0.102,
+   "endow_share": 0.803,
+   "nA": 68,
+   "nB": 156,
+   "endow_dn_share": 0.747,
+   "sample": "2021–2024",
+   "ref": "pooled"
+  },
+  {
+   "gap": 0.518,
+   "endow": 0.437,
+   "coef": 0.081,
+   "endow_share": 0.844,
+   "nA": 68,
+   "nB": 156,
+   "endow_dn_share": 0.84,
+   "sample": "2021–2024",
+   "ref": "A"
+  }
+ ],
+ "bang7_models": [
+  "FE1: 2019–2024",
+  "FE2: 2018–2024 (không hộ máy tính)",
+  "FE3: 2021–2024",
+  "FE4: 2019–2024, bỏ mật độ DN",
+  "FE5: 2019–2024, Y = hạng phần trăm",
+  "FE6: 2019–2024, loại năm 2021",
+  "FE7: X trễ 1 năm (2020–2024)",
+  "OLS gộp 2018–2020 (trước đổi phương pháp)",
+  "OLS gộp 2019–2024 (so sánh)"
+ ]
+}

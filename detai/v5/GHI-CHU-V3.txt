@@ -1,0 +1,18 @@
+Phiên bản v3 (06/09/2026) = v2 + loại bỏ hoàn toàn cột vùng của EBI (vung_ebi, 7 nhãn) khỏi mọi file dữ liệu.
+
+Thay đổi so với v2:
+ - scripts/01_phan_tich.py : ngay sau khi đọc EBI_NGTK_Panel_2017_2024.xlsx, bỏ cột vung_ebi
+                             (df.drop(columns=["vung_ebi"])). Toàn bài chỉ dùng vung6 = 6 vùng kinh tế – xã hội
+                             theo Niên giám Thống kê (Bắc Trung Bộ và Duyên hải miền Trung gộp thành một vùng).
+ - ket-qua/panel_phan_tich.csv và hinh-bai-bao/du_lieu/panel_63_tinh_2017_2024.csv : còn 55 cột (không còn vung_ebi).
+ - Toàn bộ pipeline đã chạy lại từ đầu trong v3 (01 → tao_hinh → 02 → 03 → 05 → 06 → 07).
+
+Ảnh hưởng đến kết quả: KHÔNG. Cột vung_ebi chưa từng được dùng trong bất kỳ phép tính nào (mọi trung bình vùng,
+phân rã Theil, biến giả vùng, Oaxaca–Blinder đều dùng vung6). Đã đối chiếu: mọi file CSV/JSON trong ket-qua/
+và 8 hình PNG của v3 giống hệt v2 (trừ file panel chỉ bớt một cột); bài báo, Excel trích dẫn và các file
+hướng dẫn được dựng lại từ số liệu giống nhau.
+
+File gốc EBI_NGTK_Panel_2017_2024.xlsx ở thư mục cha detai/ giữ nguyên (vẫn còn cột D vung_ebi để tham chiếu);
+script v3 tự bỏ cột này khi đọc.
+
+Nội dung thư mục và thứ tự tái tạo: xem GHI-CHU-V2.txt (giữ nguyên cấu trúc).

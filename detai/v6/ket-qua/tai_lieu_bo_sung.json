@@ -1,0 +1,69 @@
+{
+ "_mo_ta": "Tài liệu do tác giả tự tìm bổ sung (thư mục detai/tai-lieu-doi-chieu-con-thieu, chép vào v2/tai-lieu-doi-chieu ngày 08/09/2026) và các quyết định về trích dẫn.",
+ "bo_sung": {
+  "9": {
+   "file": "09_Caragliu_2025_Regional-institutions-and-the-urban-digital-divide.pdf",
+   "nguon": "Tác giả tự bổ sung (08/09/2026) – bản in Elsevier, Papers in Regional Science 104(1), 100118",
+   "loai": "PDF có lớp text (21 trang)",
+   "noi_dung": "[Abstract] “Among its determinants at the individual and more aggregate level, space-specific factors, including the quality of regional institutions, may affect its geographical breakdown. In this paper we exploit data covering 181 European cities for the period 2008–2017, examining the spatial distribution of the within-city digital divide and how this relates to several local characteristics. In particular, we focus on the interplay between geographic variables and institutional quality at the local level, measured with the University of Gothenburg's Quality of Governance dataset.” … “Our empirical results document a negative association between the quality of local institutions and the within-city digital divide. Results are robust to a number of alternative specifications, as well as to the use of historical instruments.”",
+   "danh_gia": "ĐÚNG TÀI LIỆU, ỦNG HỘ CÂU TRÍCH. Bài viết dùng Caragliu & Del Bo (2025) cho vai trò của thể chế địa phương với khoảng cách số đô thị – khớp với kết quả “negative association between the quality of local institutions and the within-city digital divide”."
+  },
+  "24": {
+   "file": "24_Norris_2001_Digital-divide-Civic-engagement-information-poverty-and-the.pdf",
+   "nguon": "Tác giả tự bổ sung (08/09/2026) – bản quét Chương 1 “The Digital Divide”, tr. 3–5 (47 trang ảnh)",
+   "loai": "PDF QUÉT (không có lớp text) – đã tách ảnh và đọc bằng vision",
+   "trang_pdf": "2, 3",
+   "trang_in": "3, 4, 5",
+   "noi_dung": "[tr. 3 – mở đầu Chương 1] “In exploring these issues, this book focuses on understanding the root causes and the major consequences of inequalities evident during the first decade of the Internet age.” … “will the Internet serve to reinforce or erode the gap between information-rich and poor nations? Will it exacerbate or reduce social divisions within countries?”\n\n[tr. 4 – định nghĩa ba tầng] “In this study the concept of the digital divide is understood as a multidimensional phenomenon encompassing three distinct aspects. The global divide refers to the divergence of Internet access between industrialized and developing societies. The social divide concerns the gap between information rich and poor in each nation. And finally within the online community, the democratic divide signifies the difference between those who do, and do not, use the panoply of digital resources to engage, mobilize, and participate in public life.”\n\n[Ảnh trang đã tách – tai-lieu-doi-chieu/anh-quet/]: 24_p001.png, 24_p002.png, 24_p003.png",
+   "danh_gia": "ĐÚNG TÀI LIỆU, ỦNG HỘ CÂU TRÍCH. Câu trong bài (“khái niệm khoảng cách số ban đầu tập trung vào chênh lệch trong tiếp cận hạ tầng CNTT-TT”) khớp với global divide = “divergence of Internet access”. Có thể ghi rõ số trang: Norris (2001), tr. 4."
+  },
+  "40": {
+   "file": "40_van-Dijk_2020_The-digital-divide.pdf",
+   "nguon": "Tác giả tự bổ sung (08/09/2026) – trích Mục lục + Chương 1 “What is the Digital Divide?”, tr. 1–7 (8 trang)",
+   "loai": "PDF có lớp text (trích chương, không phải toàn văn sách)",
+   "noi_dung": "[tr. 1 – Contents] 1 What is the Digital Divide? 1 · 2 Research into and Theory of the Digital Divide 17 · 3 Motivation and Attitude 34 · 4 Physical Access 47 · 5 Digital and Twenty-First-Century Skills 61 · 6 Usage Inequality 80 · 7 Outcomes 96 · 8 Social and Digital Inequality 110 · 9 Solutions to Mitigate the Digital Divide 132\n\n[tr. 2] “In this book I will offer my own framework of four phases of access and use of digital media in order to understand better the concept of the digital divide: motivation, physical access, skills and usage.”\n\n[tr. 3] “The first misunderstanding is that the digital divide is a simple division between two clearly separated social categories. However, because in contemporary societies we exhibit an increasingly multifaceted social, economic and cultural variation, it is more helpful to see it as a range of positions extending across whole populations – from people having no access and use at all to those with full access and using several applications every day.”",
+   "danh_gia": "ĐÚNG TÀI LIỆU, ỦNG HỘ CÂU TRÍCH. Khung “động cơ – tiếp cận vật chất – kỹ năng – sử dụng” là nguyên văn tr. 2; phê phán cách hiểu nhị phân là nguyên văn tr. 3; tầng kết quả (Outcomes) là Chương 7 theo Mục lục. LƯU Ý: đây là bản trích chương (8 trang), không phải toàn văn sách."
+  },
+  "41": {
+   "file": "41_Vicente_2011_Assessing-the-regional-digital-divide-across-the-European-Un.pdf",
+   "nguon": "Tác giả tự bổ sung (08/09/2026) – bản working paper: Fundación de las Cajas de Ahorros, Documento de Trabajo Nº 483/2009 (45 trang)",
+   "loai": "PDF có lớp text",
+   "noi_dung": "[Abstract] “On the basis of a set of ICT-related indicators, we perform a factor analysis that leads us to the development of a ranking, identifying best-and-worst performing regions. The Top-10 mainly corresponds to Dutch regions, while Greece and Bulgaria occupy the Bottom-10. Hence, results show that the regional digital divide reflects to some extent the income gap. However, regional policy towards ICT seems to be having some positive implications for technology adoption. Finally, we assess the regional divides within each Member State.”\n\n[Mục Factor analysis, tr. 8 bản WP] “As stated in previous sections, the analysis of ICT development in a territory requires the evaluation of three key facets: access, use, and skills.”\n\n[Phần kết quả] “…the rural-urban digital gap is not that much. Although this result could be a sign of the success of the aforementioned institutional efforts towards bringing the rural gap, further exploration would be needed to draw robust conclusions about this fact. Finally, we have examined the link between ICT and regional innovation performance.”",
+   "danh_gia": "CÙNG NGHIÊN CỨU, KHÁC BẢN IN – cần ghi chú khi trích số trang. Bản tải về là working paper FUNCAS Nº 483/2009; bài đăng chính thức là Telecommunications Policy 35(3), 220–237 (2011), đánh số trang khác. Nội dung ủng hộ câu trích trong bài (“tiếp cận vật chất chỉ là điều kiện cần”: ICT gồm ba mặt access – use – skills; khoảng cách vùng phản ánh một phần khoảng cách thu nhập)."
+  },
+  "42": {
+   "file": "42_Vien-Nghien-cuu-Quan-ly-Kinh_2023_Phat-trien-kinh-te-so-tai-Viet-Nam-Thuc-trang-va-khuyen-nghi.pdf",
+   "nguon": "Tác giả tự bổ sung (08/09/2026)",
+   "loai": "PDF có lớp text (5 trang)",
+   "noi_dung": "[tr. 1] “Phát triển kinh tế số ở Việt Nam: Lựa chọn áp dụng khung thể chế thử nghiệm. Khung thể chế thử nghiệm có kiểm soát (Regulatory sandbox) được xem là công cụ chính sách quan trọng nhằm thúc đẩy đổi mới sáng tạo trong khi vẫn kiểm soát được rủi ro. … Trong bài viết này, Tiến sĩ Nguyễn Minh Thảo từ Viện nghiên cứu quản lý kinh tế Trung ương (CIEM) của Việt Nam trình bày bối cảnh và thực trạng…”\n\n[tr. 5 – Về tác giả] “TS. Nguyễn Minh Thảo là Trưởng ban, Ban nghiên cứu Môi trường kinh doanh và Năng lực cạnh tranh, Viện nghiên cứu quản lý kinh tế Trung ương (CIEM), Việt Nam. … Quan điểm và kiến nghị thể hiện trong bài viết này là của riêng tác giả và không nhất thiết phản ánh quan điểm của Viện Công nghệ vì phát triển cộng đồng (Tech for Good Institute).”",
+   "danh_gia": "KHÔNG PHẢI TÀI LIỆU ĐANG TRÍCH VÀ KHÔNG ỦNG HỘ CÂU TRÍCH – CẦN TÁC GIẢ XỬ LÝ. (1) Đây không phải báo cáo của CIEM mà là bài viết đăng trên Tech For Good Institute (Singapore, do Grab sáng lập), tác giả cá nhân là TS. Nguyễn Minh Thảo (CIEM), và bài ghi rõ quan điểm là của riêng tác giả. Tên bài cũng khác: “Phát triển kinh tế số ở Việt Nam: Lựa chọn áp dụng khung thể chế thử nghiệm”. (2) Nội dung nói về khung thể chế thử nghiệm (regulatory sandbox), KHÔNG nói về chênh lệch vùng miền: tra toàn văn 5 trang không có lần nào các từ “chênh lệch”, “khoảng cách”, “hạ tầng”, “địa phương”. Câu trong bài (“CIEM (2023) cũng nhận diện chênh lệch về hạ tầng và công nghệ giữa các vùng miền là thách thức lớn của kinh tế số Việt Nam”) KHÔNG có căn cứ trong tài liệu này. ĐỀ NGHỊ: hoặc bỏ trích dẫn CIEM (2023) khỏi bài, hoặc thay bằng tài liệu khác có nội dung về chênh lệch vùng miền, hoặc đổi câu trong bài cho khớp nội dung sandbox và sửa lại mục tài liệu tham khảo thành: Nguyễn, M. T. (2023). Phát triển kinh tế số ở Việt Nam: Lựa chọn áp dụng khung thể chế thử nghiệm. Tech For Good Institute."
+  },
+  "48": {
+   "file": "48_Williamson_1965_Regional-inequality-and-the-process-of-national-development.docx",
+   "nguon": "Tác giả tự bổ sung (08/09/2026) – toàn văn số hoá dạng .docx (189.100 ký tự)",
+   "loai": "DOCX có lớp text (toàn văn bài Economic Development and Cultural Change XIII(4) Part II, 7/1965)",
+   "noi_dung": "[Phần II. Expectations – giả thuyết trung tâm] “The initial hypothesis of this study is, therefore, that the early stages of national development generate increasingly large North-South income differentials. Somewhere during the course of development, some or all of the disequilibrating tendencies diminish, causing a reversal in the pattern of interregional inequality. Instead of divergence in interregional levels of development, convergence becomes the rule, with the backward regions closing the development gap between themselves and the already industrialized areas. The expected result is that a statistic describing regional inequality will trace out an inverted ‘U’ over the national growth path; the historical timing of the peak level of spatial income differentials is left somewhat vague and may vary considerably with the resource endowment and institutional environment of each developing nation.”\n\n[Phần kết quả thực nghiệm] “With one exception, it does appear that the pattern of regional inequality is in the form of an inverted ‘U,’ reaching a peak in the middle income class.”",
+   "danh_gia": "ĐÚNG TÀI LIỆU, ỦNG HỘ CÂU TRÍCH. Giả thuyết chữ U ngược là nguyên văn. Tài liệu ở dạng .docx (toàn văn số hoá) chứ không phải PDF; các script đối chiếu đã được sửa để đọc được .docx."
+  }
+ },
+ "bo_khoi_bai": {
+  "_quyet_dinh": "Tác giả quyết định: BỎ các trích dẫn này khỏi bài, không cần tìm tài liệu gốc. STT 5, 11, 12, 21, 35, 43, 44, 47 chốt ngày 08/09/2026; STT 42 (CIEM 2023) chốt ngày 09/09/2026 sau khi đối chiếu file tác giả bổ sung. Việc gỡ khỏi scripts/noi_dung.js sẽ thực hiện khi chạy lại bài.",
+  "5": "Billon, M., Ezcurra, R., & Lera-López, F. (2008)",
+  "11": "Cowell, F. A. (2011)",
+  "12": "Davis, F. D. (1989)",
+  "21": "Lerman, R. I., & Yitzhaki, S. (1985)",
+  "35": "Tornatzky, L. G., & Fleischer, M. (1990)",
+  "43": "Vu, H. Q. (2026)",
+  "44": "Vu, H. Q., Nguyen, H. M. T., & Le, T. T. (2025)",
+  "47": "Warschauer, M. (2003)",
+  "42": "Viện Nghiên cứu Quản lý Kinh tế Trung ương (CIEM). (2023)"
+ },
+ "kinh_dien_khong_can_file": {
+  "_quyet_dinh": "Tác giả quyết định ngày 08/09/2026: GIỮ trích dẫn, thuộc dạng kinh điển, không cần tìm bản gốc để tra cứu.",
+  "30": "Rogers, E. M. (2003). Diffusion of innovations (5th ed.). Free Press.",
+  "33": "Theil, H. (1967). Economics and information theory. North-Holland."
+ },
+ "ly_do_bo": {
+  "42": "BỎ KHỎI BÀI – chốt ngày 09/09/2026. Lý do: file tác giả bổ sung không phải báo cáo của CIEM mà là bài viết đăng trên Tech For Good Institute (Singapore, do Grab sáng lập), tác giả cá nhân TS. Nguyễn Minh Thảo (CIEM), tên bài “Phát triển kinh tế số ở Việt Nam: Lựa chọn áp dụng khung thể chế thử nghiệm”, nội dung về khung thể chế thử nghiệm (regulatory sandbox). Tra toàn văn 5 trang không có lần nào các từ “chênh lệch”, “khoảng cách”, “hạ tầng”, “địa phương”, nên không có căn cứ cho câu “CIEM (2023) cũng nhận diện chênh lệch về hạ tầng và công nghệ giữa các vùng miền…” trong Mục 1. Không tìm được tài liệu gốc nào của CIEM đúng như trích dẫn. File vẫn giữ trong tai-lieu-doi-chieu/ làm bằng chứng cho quyết định này, nhưng KHÔNG còn là tài liệu tham khảo của bài."
+ }
+}

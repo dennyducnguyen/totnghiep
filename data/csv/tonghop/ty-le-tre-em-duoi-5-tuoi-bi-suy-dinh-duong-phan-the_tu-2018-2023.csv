@@ -1,0 +1,415 @@
+﻿nam,chi_muc,loai,Cân nặng Weight-for-age malnutrition,theo tuổi Chiều cao Height-for-age malnutrition,theo tuổi Cân nặng theo chiều cao Weight-for-height malnutrition
+2018,CẢ NƯỚC,CA_NUOC,13.2,24.3,6.1
+2018,Đồng bằng sông Hồng,VUNG,10.5,21.4,5.4
+2018,Hà Nội,TINH,5.5,14.4,3.5
+2018,Vĩnh Phúc,TINH,13.8,23.3,5.0
+2018,Bắc Ninh,TINH,10.2,25.3,5.4
+2018,Quảng Ninh,TINH,12.2,24.0,5.7
+2018,Hải Dương,TINH,11.0,19.9,6.6
+2018,Hải Phòng,TINH,7.4,18.6,3.0
+2018,Hưng Yên,TINH,11.4,23.3,5.9
+2018,Thái Bình,TINH,13.1,23.3,6.6
+2018,Hà Nam,TINH,12.5,22.3,5.6
+2018,Ninh Bình,TINH,13.4,23.8,4.3
+2018,Trung du và miền núi phía Bắc,VUNG,19.3,30.0,7.8
+2018,Hà Giang,TINH,22.1,34.1,6.5
+2018,Cao Bằng,TINH,17.4,31.2,8.2
+2018,Bắc Kạn,TINH,17.2,28.5,7.2
+2018,Tuyên Quang,TINH,16.8,25.2,8.9
+2018,Lào Cai,TINH,19.1,34.3,4.3
+2018,Yên Bái,TINH,17.8,28.0,7.7
+2018,Thái Nguyên,TINH,12.8,22.4,6.6
+2018,Lạng Sơn,TINH,17.6,25.6,7.3
+2018,Bắc Giang,TINH,14.5,26.4,7.4
+2018,Phú Thọ,TINH,13.5,25.7,6.1
+2018,Điện Biên,TINH,17.6,30.8,7.1
+2018,Lai Châu,TINH,22.4,35.5,4.2
+2018,Sơn La,TINH,19.9,33.3,10.1
+2018,Hòa Bình,TINH,16.6,24.6,8.0
+2018,Bắc Trung Bộ và Duyên hải miền Trung,VUNG,15.8,27.1,5.9
+2018,Thanh Hóa,TINH,17.8,28.0,5.2
+2018,Nghệ An,TINH,16.9,27.9,6.9
+2018,Hà Tĩnh,TINH,16.3,28.7,6.4
+2018,Quảng Bình,TINH,17.3,29.3,7.6
+2018,Quảng Trị,TINH,14.1,27.0,7.0
+2018,Thừa Thiên - Huế,TINH,11.4,24.2,5.0
+2018,Đà Nẵng,TINH,3.6,13.1,5.4
+2018,Quảng Nam,TINH,13.5,26.2,6.0
+2018,Quảng Ngãi,TINH,14.8,23.9,5.7
+2018,Bình Định,TINH,13.5,23.5,4.6
+2018,Phú Yên,TINH,14.6,27.1,6.9
+2018,Khánh Hòa,TINH,11.1,21.9,6.6
+2018,Ninh Thuận,TINH,18.1,26.6,8.2
+2018,Bình Thuận,TINH,14.2,27.1,4.8
+2018,Tây Nguyên,VUNG,21.2,33.6,6.8
+2018,Kon Tum,TINH,22.4,37.4,6.1
+2018,Gia Lai,TINH,23.0,34.2,7.2
+2018,Đắk Lắk,TINH,20.8,21.8,7.1
+2018,Đắk Nông,TINH,20.9,32.1,7.0
+2018,Lâm Đồng,TINH,11.4,22.5,5.9
+2018,Đông Nam Bộ,VUNG,8.8,18.9,4.4
+2018,Bình Phước,TINH,14.0,27.2,5.4
+2018,Tây Ninh,TINH,11.6,22.1,3.8
+2018,Bình Dương,TINH,8.1,21.0,3.5
+2018,Đồng Nai,TINH,8.3,23.8,4.9
+2018,Bà Rịa - Vũng Tàu,TINH,6.6,18.8,4.0
+2018,TP. Hồ Chí Minh,TINH,4.9,6.8,2.3
+2018,Đồng bằng sông Cửu Long,VUNG,12.1,23.1,5.3
+2018,Long An,TINH,7.9,18.2,3.0
+2018,Tiền Giang,TINH,10.1,24.0,5.5
+2018,Bến Tre,TINH,10.8,21.5,4.7
+2018,Trà Vinh,TINH,13.6,22.5,8.1
+2018,Vĩnh Long,TINH,13.1,22.6,4.6
+2018,Đồng Tháp,TINH,13.5,24.6,4.8
+2018,An Giang,TINH,12.2,23.0,5.6
+2018,Kiên Giang,TINH,13.0,21.2,4.2
+2018,Cần Thơ,TINH,9.9,20.5,3.2
+2018,Hậu Giang,TINH,12.6,25.4,7.3
+2018,Sóc Trăng,TINH,12.7,24.3,4.0
+2018,Bạc Liêu,TINH,12.9,24.1,6.9
+2018,Cà Mau,TINH,12.1,23.2,7.9
+2019,CẢ NƯỚC,CA_NUOC,12.4,19.9,5.1
+2019,Đồng bằng sông Hồng,VUNG,9.3,19.5,4.8
+2019,Hà Nội,TINH,4.5,12.6,3.3
+2019,Vĩnh Phúc,TINH,12.9,19.3,4.9
+2019,Bắc Ninh,TINH,9.2,21.5,5.3
+2019,Quảng Ninh,TINH,12.0,23.2,6.2
+2019,Hải Dương,TINH,10.3,16.2,5.9
+2019,Hải Phòng,TINH,6.4,16.7,2.9
+2019,Hưng Yên,TINH,10.6,19.6,5.0
+2019,Thái Bình,TINH,12.3,20.6,5.9
+2019,Hà Nam,TINH,11.7,18.7,4.4
+2019,Nam Định,TINH,10.5,16.7,4.9
+2019,Ninh Bình,TINH,12.9,20.4,4.2
+2019,Trung du và miền núi phía Bắc,VUNG,18.1,28.0,6.9
+2019,Hà Giang,TINH,21.2,32.7,5.9
+2019,Cao Bằng,TINH,17.1,27.8,7.8
+2019,Bắc Kạn,TINH,16.8,25.1,6.4
+2019,Tuyên Quang,TINH,16.3,21.6,8.8
+2019,Lào Cai,TINH,18.2,30.7,4.3
+2019,Yên Bái,TINH,16.8,23.9,8.9
+2019,Thái Nguyên,TINH,12.1,19.6,6.5
+2019,Lạng Sơn,TINH,17.3,22.1,6.7
+2019,Bắc Giang,TINH,13.5,22.5,7.3
+2019,Phú Thọ,TINH,12.9,22.1,5.7
+2019,Điện Biên,TINH,17.4,29.5,6.5
+2019,Lai Châu,TINH,21.4,34.1,3.3
+2019,Sơn La,TINH,19.8,32.0,11.1
+2019,Hòa Bình,TINH,16.1,21.0,7.3
+2019,Bắc Trung Bộ và Duyên hải miền Trung,VUNG,14.7,22.9,5.0
+2019,Thanh Hóa,TINH,16.8,24.0,5.1
+2019,Nghệ An,TINH,16.3,24.3,6.0
+2019,Hà Tĩnh,TINH,15.7,25.1,5.2
+2019,Quảng Bình,TINH,17.0,28.1,6.9
+2019,Quảng Trị,TINH,13.5,23.3,5.9
+2019,Thừa Thiên - Huế,TINH,10.8,20.6,2.7
+2019,Đà Nẵng,TINH,2.6,9.3,5.2
+2019,Quảng Nam,TINH,12.9,22.7,5.1
+2019,Quảng Ngãi,TINH,14.0,20.4,5.1
+2019,Bình Định,TINH,12.9,19.9,4.2
+2019,Phú Yên,TINH,14.0,26.0,5.9
+2019,Khánh Hòa,TINH,10.3,18.3,7.8
+2019,Ninh Thuận,TINH,17.1,22.6,7.5
+2019,Bình Thuận,TINH,13.5,23.6,3.5
+2019,Tây Nguyên,VUNG,20.2,31.9,6.1
+2019,Kon Tum,TINH,22.1,34.3,6.2
+2019,Gia Lai,TINH,22.5,30.9,6.7
+2019,Đắk Lắk,TINH,19.8,28.0,6.5
+2019,Đắk Nông,TINH,20.4,28.6,6.2
+2019,Lâm Đồng,TINH,10.4,18.4,6.0
+2019,Đông Nam Bộ,VUNG,7.6,17.0,3.7
+2019,Bình Phước,TINH,13.0,25.5,4.7
+2019,Tây Ninh,TINH,10.6,18.1,3.1
+2019,Bình Dương,TINH,7.1,17.0,2.0
+2019,Đồng Nai,TINH,7.4,20.1,4.1
+2019,Bà Rịa - Vũng Tàu,TINH,5.7,15.0,4.1
+2019,TP. Hồ Chí Minh,TINH,3.6,4.2,0.8
+2019,Đồng bằng sông Cửu Long,VUNG,10.8,19.1,5.1
+2019,Long An,TINH,7.3,15.1,2.5
+2019,Tiền Giang,TINH,9.3,20.0,4.6
+2019,Bến Tre,TINH,9.9,17.5,4.7
+2019,Trà Vinh,TINH,13.0,19.1,7.7
+2019,Vĩnh Long,TINH,12.4,18.6,4.0
+2019,Đồng Tháp,TINH,12.9,21.1,3.9
+2019,An Giang,TINH,11.4,19.5,4.8
+2019,Kiên Giang,TINH,12.1,17.2,4.5
+2019,Cần Thơ,TINH,9.4,17.0,2.9
+2019,Hậu Giang,TINH,11.7,21.6,6.5
+2019,Sóc Trăng,TINH,12.1,21.2,3.6
+2019,Bạc Liêu,TINH,12.0,20.2,6.2
+2019,Cà Mau,TINH,11.2,19.2,7.9
+2020,CẢ NƯỚC,CA_NUOC,12.2,22.4,5.2
+2020,Đồng bằng sông Hồng,VUNG,9.1,19.4,4.5
+2020,Hà Nội,TINH,5.2,13.4,3.2
+2020,Vĩnh Phúc,TINH,12.8,21.5,4.7
+2020,Bắc Ninh,TINH,10.0,23.6,5.4
+2020,Quảng Ninh,TINH,11.9,22.6,4.2
+2020,Hải Dương,TINH,10.8,19.1,5.7
+2020,Hải Phòng,TINH,7.2,17.8,3.2
+2020,Hưng Yên,TINH,11.1,22.4,5.5
+2020,Thái Bình,TINH,12.5,22.6,5.6
+2020,Hà Nam,TINH,12.0,21.7,5.2
+2020,Nam Định,TINH,10.8,19.6,5.3
+2020,Ninh Bình,TINH,12.2,12.2,4.0
+2020,Trung du và miền núi phía Bắc,VUNG,16.3,27.1,6.5
+2020,Hà Giang,TINH,19.7,31.7,6.3
+2020,Cao Bằng,TINH,17.3,30.4,6.8
+2020,Bắc Kạn,TINH,17.1,27.5,6.7
+2020,Tuyên Quang,TINH,16.6,24.9,7.6
+2020,Lào Cai,TINH,17.6,31.0,5.2
+2020,Yên Bái,TINH,17.1,26.9,7.4
+2020,Thái Nguyên,TINH,12.6,23.0,6.0
+2020,Lạng Sơn,TINH,17.2,24.8,6.1
+2020,Bắc Giang,TINH,12.6,23.1,6.2
+2020,Phú Thọ,TINH,13.1,24.1,5.8
+2020,Điện Biên,TINH,16.9,28.7,6.3
+2020,Lai Châu,TINH,19.5,32.1,4.9
+2020,Sơn La,TINH,18.5,30.9,7.7
+2020,Hòa Bình,TINH,15.9,23.7,6.2
+2020,Bắc Trung Bộ và Duyên hải miền Trung,VUNG,13.8,24.8,5.5
+2020,Thanh Hóa,TINH,16.6,26.7,5.2
+2020,Nghệ An,TINH,16.5,26.6,6.1
+2020,Hà Tĩnh,TINH,16.1,27.0,5.8
+2020,Quảng Bình,TINH,16.8,27.9,6.7
+2020,Quảng Trị,TINH,13.9,26.0,6.4
+2020,Thừa Thiên - Huế,TINH,11.3,23.6,4.9
+2020,Đà Nẵng,TINH,3.5,13.0,4.2
+2020,Quảng Nam,TINH,13.5,25.2,5.7
+2020,Quảng Ngãi,TINH,14.3,23.7,5.2
+2020,Bình Định,TINH,13.1,23.1,4.1
+2020,Phú Yên,TINH,14.0,26.3,6.6
+2020,Khánh Hòa,TINH,10.6,20.6,5.5
+2020,Ninh Thuận,TINH,15.9,25.8,7.1
+2020,Bình Thuận,TINH,13.8,26.1,4.4
+2020,Tây Nguyên,VUNG,18.7,29.8,5.8
+2020,Kon Tum,TINH,20.9,33.4,5.1
+2020,Gia Lai,TINH,21.1,32.0,6.2
+2020,Đắk Lắk,TINH,19.8,29.9,6.9
+2020,Đắk Nông,TINH,19.1,29.8,6.3
+2020,Lâm Đồng,TINH,11.0,21.7,5.2
+2020,Đông Nam Bộ,VUNG,7.7,16.6,3.2
+2020,Bình Phước,TINH,13.8,26.4,4.9
+2020,Tây Ninh,TINH,11.3,21.1,3.5
+2020,Bình Dương,TINH,7.5,19.4,3.1
+2020,Đồng Nai,TINH,7.9,23.3,4.5
+2020,Bà Rịa - Vũng Tàu,TINH,6.3,18.2,3.9
+2020,TP. Hồ Chí Minh,TINH,4.4,6.7,1.6
+2020,Đồng bằng sông Cửu Long,VUNG,11.0,21.2,4.9
+2020,Long An,TINH,7.8,18.1,3.3
+2020,Tiền Giang,TINH,10.1,23.2,5.1
+2020,Bến Tre,TINH,10.6,21.2,4.4
+2020,Trà Vinh,TINH,13.0,22.1,7.2
+2020,Vĩnh Long,TINH,12.6,21.7,4.1
+2020,Đồng Tháp,TINH,12.9,23.3,4.6
+2020,An Giang,TINH,11.9,22.4,5.0
+2020,Kiên Giang,TINH,12.8,21.0,4.3
+2020,Cần Thơ,TINH,9.5,18.9,3.0
+2020,Hậu Giang,TINH,12.3,24.4,6.5
+2020,Sóc Trăng,TINH,12.1,23.5,4.1
+2020,Bạc Liêu,TINH,12.5,23.6,6.6
+2020,Cà Mau,TINH,12.0,22.8,6.8
+2021,CẢ NƯỚC,CA_NUOC,11.2,19.2,3.6
+2021,Đồng bằng sông Hồng,VUNG,8.5,18.0,5.0
+2021,Hà Nội,TINH,4.6,12.2,3.2
+2021,Vĩnh Phúc,TINH,11.0,20.0,5.2
+2021,Bắc Ninh,TINH,9.3,20.2,5.6
+2021,Quảng Ninh,TINH,10.7,20.4,4.9
+2021,Hải Dương,TINH,9.9,18.0,5.7
+2021,Hải Phòng,TINH,6.5,16.9,3.8
+2021,Hưng Yên,TINH,10.3,20.3,5.4
+2021,Thái Bình,TINH,11.2,20.8,6.2
+2021,Hà Nam,TINH,10.9,19.9,5.5
+2021,Nam Định,TINH,10.0,18.5,5.3
+2021,Ninh Bình,TINH,10.7,19.0,4.8
+2021,Trung du và miền núi phía Bắc,VUNG,15.4,25.3,7.1
+2021,Hà Giang,TINH,18.3,29.5,7.7
+2021,Cao Bằng,TINH,16.3,28.0,6.4
+2021,Bắc Kạn,TINH,16.1,26.3,7.5
+2021,Tuyên Quang,TINH,15.7,24.0,8.8
+2021,Lào Cai,TINH,16.4,28.2,5.4
+2021,Yên Bái,TINH,16.4,24.9,8.3
+2021,Thái Nguyên,TINH,11.8,21.0,6.5
+2021,Lạng Sơn,TINH,16.1,22.8,7.1
+2021,Bắc Giang,TINH,11.3,20.8,6.6
+2021,Phú Thọ,TINH,11.9,22.1,6.5
+2021,Điện Biên,TINH,16.1,27.0,7.6
+2021,Lai Châu,TINH,17.8,28.5,6.2
+2021,Sơn La,TINH,17.0,28.2,7.2
+2021,Hòa Bình,TINH,15.1,22.7,7.4
+2021,Bắc Trung Bộ và Duyên hải miền Trung,VUNG,12.6,22.4,6.1
+2021,Thanh Hóa,TINH,15.4,25.2,5.5
+2021,Nghệ An,TINH,15.2,26.0,6.1
+2021,Hà Tĩnh,TINH,15.0,24.4,6.3
+2021,Quảng Bình,TINH,14.7,24.8,6.5
+2021,Quảng Trị,TINH,13.3,24.3,6.9
+2021,Thừa Thiên - Huế,TINH,10.6,21.6,5.6
+2021,Đà Nẵng,TINH,3.4,12.4,4.3
+2021,Quảng Nam,TINH,12.7,23.3,6.6
+2021,Quảng Ngãi,TINH,13.2,20.9,5.8
+2021,Bình Định,TINH,12.0,21.2,4.3
+2021,Phú Yên,TINH,12.8,23.7,7.5
+2021,Khánh Hòa,TINH,9.7,19.0,5.8
+2021,Ninh Thuận,TINH,14.9,23.3,7.7
+2021,Bình Thuận,TINH,13.1,23.9,5.8
+2021,Tây Nguyên,VUNG,17.1,27.0,6.7
+2021,Kon Tum,TINH,19.7,30.2,6.7
+2021,Gia Lai,TINH,19.4,29.3,7.5
+2021,Đắk Lắk,TINH,18.0,28.3,7.2
+2021,Đắk Nông,TINH,17.8,27.2,6.6
+2021,Lâm Đồng,TINH,10.4,20.1,5.6
+2021,Đông Nam Bộ,VUNG,7.0,15.8,4.3
+2021,Bình Phước,TINH,12.8,23.8,7.8
+2021,Tây Ninh,TINH,10.7,19.2,4.0
+2021,Bình Dương,TINH,7.0,18.3,3.2
+2021,Đồng Nai,TINH,7.2,20.7,4.5
+2021,Bà Rịa - Vũng Tàu,TINH,5.7,16.2,4.4
+2021,TP. Hồ Chí Minh,TINH,4.2,6.3,1.9
+2021,Đồng bằng sông Cửu Long,VUNG,10.2,20.3,5.6
+2021,Long An,TINH,7.4,17.3,3.6
+2021,Tiền Giang,TINH,9.6,21.1,6.5
+2021,Bến Tre,TINH,9.7,20.2,4.8
+2021,Trà Vinh,TINH,11.3,20.3,6.3
+2021,Vĩnh Long,TINH,11.0,20.1,5.4
+2021,Đồng Tháp,TINH,12.1,21.7,5.6
+2021,An Giang,TINH,11.2,20.8,5.2
+2021,Kiên Giang,TINH,12.0,19.9,5.0
+2021,Cần Thơ,TINH,8.6,17.8,3.6
+2021,Hậu Giang,TINH,11.4,22.0,7.0
+2021,Sóc Trăng,TINH,11.5,22.2,5.4
+2021,Bạc Liêu,TINH,11.8,21.5,6.8
+2021,Cà Mau,TINH,11.3,21.0,7.0
+2022,CẢ NƯỚC,CA_NUOC,11.2,19.2,3.6
+2022,Đồng bằng sông Hồng,VUNG,8.5,18.0,5.0
+2022,Hà Nội,TINH,4.6,12.2,3.2
+2022,Vĩnh Phúc,TINH,11.0,20.0,5.2
+2022,Bắc Ninh,TINH,9.3,20.2,5.6
+2022,Quảng Ninh,TINH,10.7,20.4,4.9
+2022,Hải Dương,TINH,9.9,18.0,5.7
+2022,Hải Phòng,TINH,6.5,16.9,3.8
+2022,Hưng Yên,TINH,10.3,20.3,5.4
+2022,Thái Bình,TINH,11.2,20.8,6.2
+2022,Hà Nam,TINH,10.9,19.9,5.5
+2022,Nam Định,TINH,10.0,18.5,5.3
+2022,Ninh Bình,TINH,10.7,19.0,4.8
+2022,Trung du và miền núi phía Bắc,VUNG,15.4,25.3,7.1
+2022,Hà Giang,TINH,18.3,29.5,7.7
+2022,Cao Bằng,TINH,16.3,28.0,6.4
+2022,Bắc Kạn,TINH,16.1,26.3,7.5
+2022,Tuyên Quang,TINH,15.7,24.0,8.8
+2022,Lào Cai,TINH,16.4,28.2,5.4
+2022,Yên Bái,TINH,16.4,24.9,8.3
+2022,Thái Nguyên,TINH,11.8,21.0,6.5
+2022,Lạng Sơn,TINH,16.1,22.8,7.1
+2022,Bắc Giang,TINH,11.3,20.8,6.6
+2022,Phú Thọ,TINH,11.9,22.1,6.5
+2022,Điện Biên,TINH,16.1,27.0,7.6
+2022,Lai Châu,TINH,17.8,28.5,6.2
+2022,Sơn La,TINH,17.0,28.2,7.2
+2022,Hòa Bình,TINH,15.1,22.7,7.4
+2022,Bắc Trung Bộ và Duyên hải miền Trung,VUNG,12.6,22.4,6.1
+2022,Thanh Hóa,TINH,15.4,25.2,5.5
+2022,Nghệ An,TINH,15.2,26.0,6.1
+2022,Hà Tĩnh,TINH,15.0,24.4,6.3
+2022,Quảng Bình,TINH,14.7,24.8,6.5
+2022,Quảng Trị,TINH,13.3,24.3,6.9
+2022,Thừa Thiên - Huế,TINH,10.6,21.6,5.6
+2022,Đà Nẵng,TINH,3.4,12.4,4.3
+2022,Quảng Nam,TINH,12.7,23.3,6.6
+2022,Quảng Ngãi,TINH,13.2,20.9,5.8
+2022,Bình Định,TINH,12.0,21.2,4.3
+2022,Phú Yên,TINH,12.8,23.7,7.5
+2022,Khánh Hòa,TINH,9.7,19.0,5.8
+2022,Ninh Thuận,TINH,14.9,23.3,7.7
+2022,Bình Thuận,TINH,13.1,23.9,5.8
+2022,Tây Nguyên,VUNG,17.1,27.0,6.7
+2022,Kon Tum,TINH,19.7,30.2,6.7
+2022,Gia Lai,TINH,19.4,29.3,7.5
+2022,Đắk Lắk,TINH,18.0,28.3,7.2
+2022,Đắk Nông,TINH,17.8,27.2,6.6
+2022,Lâm Đồng,TINH,10.4,20.1,5.6
+2022,Đông Nam Bộ,VUNG,7.0,15.8,4.3
+2022,Bình Phước,TINH,12.8,23.8,7.8
+2022,Tây Ninh,TINH,10.7,19.2,4.0
+2022,Bình Dương,TINH,7.0,18.3,3.2
+2022,Đồng Nai,TINH,7.2,20.7,4.5
+2022,Bà Rịa - Vũng Tàu,TINH,5.7,16.2,4.4
+2022,TP. Hồ Chí Minh,TINH,4.2,6.3,1.9
+2022,Đồng bằng sông Cửu Long,VUNG,10.2,20.3,5.6
+2022,Long An,TINH,7.4,17.3,3.6
+2022,Tiền Giang,TINH,9.6,21.1,6.5
+2022,Bến Tre,TINH,9.7,20.2,4.8
+2022,Trà Vinh,TINH,11.3,20.3,6.3
+2022,Vĩnh Long,TINH,11.0,20.1,5.4
+2022,Đồng Tháp,TINH,12.1,21.7,5.6
+2022,An Giang,TINH,11.2,20.8,5.2
+2022,Kiên Giang,TINH,12.0,19.9,5.0
+2022,Cần Thơ,TINH,8.6,17.8,3.6
+2022,Hậu Giang,TINH,11.4,22.0,7.0
+2022,Sóc Trăng,TINH,11.5,22.2,5.4
+2022,Bạc Liêu,TINH,11.8,21.5,6.8
+2022,Cà Mau,TINH,11.3,21.0,7.0
+2023,CẢ NƯỚC,CA_NUOC,9.7,18.2,4.4
+2023,Đồng bằng sông Hồng,VUNG,8.8,16.8,4.4
+2023,Hà Nội,TINH,6.9,12,7.7
+2023,Vĩnh Phúc,TINH,7.3,14.4,5.5
+2023,Bắc Ninh,TINH,4.6,11.5,4.7
+2023,Quảng Ninh,TINH,9.8,18.1,6.3
+2023,Hải Phòng,TINH,6.6,16.6,3.2
+2023,Hưng Yên,TINH,8.8,17.8,5.8
+2023,Thái Bình,TINH,9.8,18.5,6
+2023,Hà Nam,TINH,10.3,17.3,3.9
+2023,Ninh Bình,TINH,10.2,12.7,4.5
+2023,Trung du và miền núi phía Bắc,VUNG,14.0,24.8,5.8
+2023,Hà Giang,TINH,18.7,30.1,7.6
+2023,Cao Bằng,TINH,16.3,29.0,4.6
+2023,Bắc Kạn,TINH,15.2,24.9,5.4
+2023,Tuyên Quang,TINH,12.2,23.7,12.7
+2023,Lào Cai,TINH,14.1,25.6,2.5
+2023,Yên Bái,TINH,14.9,23.1,7.1
+2023,Thái Nguyên,TINH,10.3,19.8,5.9
+2023,Lạng Sơn,TINH,15.1,21.8,7.3
+2023,Bắc Giang,TINH,10.5,19.4,4.9
+2023,Phú Thọ,TINH,10.8,19.9,5.6
+2023,Điện Biên,TINH,14.8,25.5,6.6
+2023,Lai Châu,TINH,17.9,27.1,7.3
+2023,Sơn La,TINH,15.4,26.1,4.5
+2023,Hòa Bình,TINH,14.2,22.5,6.8
+2023,Bắc Trung Bộ và Duyên hải miền Trung,VUNG,12.7,20.8,5.9
+2023,Thanh Hóa,TINH,13.7,23.4,5.0
+2023,Nghệ An,TINH,13.9,24.4,5.6
+2023,Hà Tĩnh,TINH,9.5,20.2,5.2
+2023,Quảng Bình,TINH,12.7,21.0,5.1
+2023,Thừa Thiên - Huế,TINH,7.0,14.9,5.1
+2023,Đà Nẵng,TINH,3.2,12.3,3.8
+2023,Quảng Nam,TINH,9.6,21.0,7.1
+2023,Bình Định,TINH,8.1,13.0,4.6
+2023,Phú Yên,TINH,10.6,22.0,4.9
+2023,Khánh Hòa,TINH,8.3,15.0,5.5
+2023,Ninh Thuận,TINH,12.3,20.8,6.1
+2023,Bình Thuận,TINH,11.2,22.1,4.9
+2023,Tây Nguyên,VUNG,16.2,25.9,7.1
+2023,Kon Tum,TINH,16.9,28.7,4.5
+2023,Gia Lai,TINH,22.1,28.6,8.2
+2023,Đắk Lắk,TINH,18.0,27.8,6.6
+2023,Đắk Nông,TINH,17.1,25.7,4.6
+2023,Đông Nam Bộ,VUNG,5.4,14.3,4.8
+2023,Bình Phước,TINH,11.4,19.5,4.8
+2023,Tây Ninh,TINH,10.1,18.5,5.6
+2023,Bình Dương,TINH,5.4,10.1,4.1
+2023,Đồng Nai,TINH,5.4,9.3,6.2
+2023,Bà Rịa - Vũng Tàu,TINH,5.2,15.1,4.9
+2023,TP. Hồ Chí Minh,TINH,4.5,6.0,2.8
+2023,Đồng bằng sông Cửu Long,VUNG,9.3,18.7,5.6
+2023,Long An,TINH,7.2,16.0,3.5
+2023,Tiền Giang,TINH,9.0,18.9,6.3
+2023,Bến Tre,TINH,9.7,18.6,4.5
+2023,Trà Vinh,TINH,6.0,10.5,9.0
+2023,Vĩnh Long,TINH,5.2,11.0,6.6
+2023,Đồng Tháp,TINH,11.0,17.7,4.2
+2023,An Giang,TINH,9.7,16.8,
+2023,Kiên Giang,TINH,9.1,14.5,5.5
+2023,Cần Thơ,TINH,7.6,14.0,6.1
+2023,Hậu Giang,TINH,7.8,12.6,7.9
+2023,Sóc Trăng,TINH,9.8,19.5,4.4
+2023,Bạc Liêu,TINH,8.7,18.1,7.7
+2023,Cà Mau,TINH,10.2,19.5,5.8

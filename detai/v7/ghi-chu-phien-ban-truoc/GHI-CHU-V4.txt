@@ -1,0 +1,124 @@
+Phiên bản v4 (07/09/2026) = v3 + kho tài liệu gốc + các sửa lỗi trích dẫn phát hiện khi đối chiếu với bản gốc.
+
+===========================================================================
+1. NHỮNG GÌ ĐÃ SỬA TRONG BÀI BÁO (scripts/noi_dung.js -> Bai-bao-EBI-63-tinh-2017-2024.docx)
+===========================================================================
+
+(1) Mục 1. Giới thiệu – trích dẫn Quyết định 645/QĐ-TTg (Thủ tướng Chính phủ, 2020)
+    CŨ : "...đặt mục tiêu đưa TMĐT trở thành kênh phân phối quan trọng, hỗ trợ sản xuất kinh doanh
+          và liên kết vùng (Thủ tướng Chính phủ, 2020)."
+    VẤN ĐỀ: đọc bản gốc (PDF quét, đọc bằng vision) thì Mục tiêu tổng quát của QĐ 645 KHÔNG có cụm
+          "kênh phân phối quan trọng" cũng như "liên kết vùng".
+    MỚI : trích nguyên văn hai gạch đầu dòng có thật – "hỗ trợ, thúc đẩy việc ứng dụng rộng rãi thương mại
+          điện tử trong doanh nghiệp và cộng đồng" và "thu hẹp khoảng cách giữa các thành phố lớn và các
+          địa phương về mức độ phát triển thương mại điện tử".
+
+(2) Mục 1. Giới thiệu – so sánh hai kỳ kế hoạch
+    CŨ : "Kế hoạch giai đoạn 2026–2030 ĐI XA HƠN khi đặt mục tiêu định lượng về cân bằng không gian:
+          tỷ trọng doanh số TMĐT B2C ngoài Hà Nội và TP. Hồ Chí Minh đạt 50%..."
+    VẤN ĐỀ: sai. QĐ 645 (2021–2025) ĐÃ có đúng chỉ tiêu 50% này (Mục II.3.a, tr. 3). QĐ 1568 (2026–2030)
+          giữ nguyên mốc 50%, chỉ nâng chỉ tiêu độ phủ cấp xã từ 50% lên 60%.
+    MỚI : nêu đúng rằng chỉ tiêu 50% được ĐẶT LẠI cho kỳ sau, và biến đó thành lập luận: một chỉ tiêu
+          cân bằng không gian phải đặt lại nguyên vẹn nghĩa là chưa đạt – củng cố lý do nghiên cứu.
+          Câu trích cũng sửa lại đúng nguyên văn: "các địa phương ngoài Hà Nội và Thành phố Hồ Chí Minh
+          chiếm 50% giá trị giao dịch thương mại điện tử B2C của toàn quốc".
+
+(3) Mục 6. Hàm ý chính sách – cùng lỗi ở (2), đã sửa cách diễn đạt mục tiêu và bổ sung trích dẫn
+    (Thủ tướng Chính phủ, 2020) bên cạnh (Bộ Công Thương, 2025).
+
+(4) Mục 2. Tổng quan – Fan và cộng sự (2024)
+    CŨ : xếp Fan và cộng sự (2024) cùng nhóm với Zhou và cộng sự (2024) là "thấy phần trong nội bộ vùng
+          chiếm ưu thế".
+    VẤN ĐỀ: đọc bản gốc thì phần TÓM TẮT của Fan và cộng sự viết "mainly from intra-regional differences"
+          nhưng phần kết quả (tr. 13, Hình 7) lại nói ngược: chênh lệch GIỮA các vùng đóng góp trung bình
+          72,09% và đang giảm 5,01%; phần trong vùng 21,22% và đang tăng. Bài gốc tự mâu thuẫn.
+    MỚI : mô tả đúng theo phần kết quả – Fan cùng nhóm với Wang (2024) về MỨC (giữa vùng chiếm ưu thế)
+          nhưng cùng chiều với Zhou về XU HƯỚNG (giữa vùng giảm, trong vùng tăng). Ghi chú mâu thuẫn của
+          bài gốc trong bảng đối chiếu (STT 13).
+
+(5) Mục 2 và Mục 5 – Wang (2024): "54–58%" -> "khoảng 53–58% tùy năm"
+    (Bảng 3, tr. 10 của bản gốc: 54,40 / 53,44 / 55,64 / 58,16 / 53,95).
+
+(6) Tài liệu tham khảo – Özcan Alp & Baycan (2023)
+    CŨ : Quaestiones Geographicae, 42(3), 5–22.
+    MỚI : Quaestiones Geographicae, 42(4), 43–61.  (dòng trích dẫn chính thức in ở trang 1 bản gốc:
+          "Quaestiones Geographicae 42(4), Bogucki Wydawnictwo Naukowe, Poznań, pp. 43–61")
+
+KHÔNG SỬA (đã kiểm chứng là ĐÚNG, giữ nguyên):
+  - UNCTAD (2024): 17 nghìn tỷ USD (2016) -> 27 nghìn tỷ USD (2022), 43 nền kinh tế  [DER 2024, tr. 26, 174]
+  - ITU (2025): 74% dân số thế giới dùng Internet năm 2025                            [Facts and Figures 2025, tr. 7]
+  - Barro & Sala-i-Martin (1992): tốc độ hội tụ ~2%/năm                                [JPE 1992, tr. 24]
+  - Sala-i-Martin (1996): hội tụ beta là điều kiện cần nhưng không đủ cho hội tụ sigma [nguyên văn, xem mục 3]
+  - Zhao và cộng sự (2022): 72,9% do đặc điểm / 27,1% do hệ số                         [CHB 2022, tr. 10, 12]
+  - Wang và cộng sự (2021): phía tiêu dùng lan tỏa ra ngoại vi mạnh hơn phía kinh doanh
+        ("Online shopping is more capable of bridging core and peripheral differences than online business", tr. 13)
+  - Zhou và cộng sự (2024): phần trong nội bộ vùng vượt phần giữa vùng và ngày càng rộng [tr. 20]
+
+CẦN TÁC GIẢ QUYẾT ĐỊNH:
+  - CIEM (2023) "Phát triển kinh tế số tại Việt Nam: Thực trạng và khuyến nghị": KHÔNG tìm được bản công bố
+    trực tuyến nào (ciem.org.vn và các nguồn khác, tra cứu 07/09/2026). Câu trích trong Mục 1 hiện GIỮ NGUYÊN.
+    Đề nghị: cung cấp bản gốc, thay bằng tài liệu CIEM kiểm chứng được, hoặc bỏ trích dẫn này.
+    Đã đánh dấu "CHƯA XÁC MINH ĐƯỢC NGUỒN" ở STT 42 trong bảng đối chiếu.
+
+===========================================================================
+2. NHỮNG GÌ ĐÃ SỬA TRONG BẢNG ĐỐI CHIẾU (scripts/06_bang_trich_dan.py)
+===========================================================================
+  - STT 2  Anselin (1995): trước đây dùng chung phiếu đọc D1 với Phillips & Sul (2007) nên nội dung bị lẫn
+    "câu lạc bộ hội tụ". Đã tách riêng và thay bằng nguyên văn lấy từ file gốc (tr. 93).
+  - STT 6  Blinder (1973) và STT 25 Oaxaca (1973): thay tóm tắt bằng nguyên văn + phương trình, đọc bằng
+    vision từ bản quét JSTOR (Blinder tr. 436, 438; Oaxaca tr. 693, 696).
+  - STT 32 Sala-i-Martin (1996): bỏ các số trang 1326–1329 (SAI – bài đăng ở The Economic Journal
+    106(437), 1019–1036). Thay bằng nguyên văn đọc từ bản working paper (UPF/Yale WP 117, 6/1995).
+  - STT 13 Fan, STT 46 Wang (2024), STT 50 Zhao: thay nội dung phiếu đọc bằng nguyên văn từ file gốc.
+  - STT 26 Özcan Alp: ghi chú đã sửa thông tin xuất bản.
+  - STT 42 CIEM: đánh dấu chưa xác minh được nguồn.
+  - Logic: trạng thái ghi thủ công trong bảng M nay được ưu tiên hơn trạng thái suy ra từ doi_chieu_citations.xlsx.
+
+===========================================================================
+3. KHO TÀI LIỆU GỐC – tai-lieu-doi-chieu/
+===========================================================================
+  35/51 tài liệu trong danh mục Tài liệu tham khảo đã tải được bản gốc (81 MB), đặt tên
+  <STT>_<Họ tác giả>_<Năm>_<Tiêu đề>.pdf để khớp thẳng với STT trong bảng đối chiếu.
+  16 tài liệu chưa tải được (7 sách có bản quyền, 8 bài có tường phí, 1 báo cáo CIEM không tìm thấy);
+  lý do và liên kết tra cứu ghi trong cột "Kết quả đối chiếu"/"Nguồn tải" của bảng.
+
+  5 file là PDF quét (không có lớp text): STT 6, 7, 25, 32, 34. Đã tách thành 23 ảnh PNG ở
+  tai-lieu-doi-chieu/anh-quet/ và đọc bằng vision; nội dung nằm ở ket-qua/vision_pdf_quet.json và ở cột
+  "Nội dung gốc đọc bằng vision" của Bang-doi-chieu-trich-dan-kem-tai-lieu.xlsx.
+
+  Kết quả dò tự động 30 PDF có lớp text: 9 tài liệu khớp nguyên văn toàn bộ đoạn trích, 11 khớp một phần,
+  10 không khớp (do cột "Đoạn nội dung gốc" của bản cũ là tóm tắt của người đọc, không phải câu nguyên văn).
+
+===========================================================================
+4. FILE TRONG THƯ MỤC v4
+===========================================================================
+ Bai-bao-EBI-63-tinh-2017-2024.docx          bài báo (đã sửa 6 điểm ở mục 1)
+ Bang-doi-chieu-trich-dan.xlsx               bảng đối chiếu 51 tài liệu (script 06)
+ Bang-doi-chieu-trich-dan-kem-tai-lieu.xlsx  bảng trên + 7 cột tham chiếu file gốc, 3 sheet (script 11)
+ MO-TA-CONG-THUC-TINH.docx                   mô tả công thức (script 07)
+ Nghien_Cuu_Tai_Lieu_EBI.xlsx                ma trận tài liệu (đầu vào)
+ tai-lieu-doi-chieu/                          35 PDF gốc + anh-quet/ (23 ảnh PNG)
+ hinh-bai-bao/                                8 hình PNG + tao_hinh.py + du_lieu/ + HUONG-DAN-TAO-HINH.docx
+ ket-qua/                                     CSV số liệu, bang_docx.json, panel_phan_tich.csv,
+                                              manifest_tai_lieu.json, doi_chieu_pdf.json, vision_pdf_quet.json
+ scripts/                                     01–11 (xem thứ tự chạy bên dưới)
+ GHI-CHU-V2.txt, GHI-CHU-V3.txt               ghi chú của hai phiên bản trước (tham chiếu)
+
+===========================================================================
+5. THỨ TỰ TÁI TẠO TOÀN BỘ (chạy trong thư mục v4)
+===========================================================================
+ python scripts/01_phan_tich.py
+ copy ket-qua\panel_phan_tich.csv hinh-bai-bao\du_lieu\panel_63_tinh_2017_2024.csv
+ python hinh-bai-bao\tao_hinh.py
+ python scripts/02_bang_docx.py
+ node   scripts/03_build_docx.js
+ node   scripts/05_huong_dan_hinh.js
+ node   scripts/07_mo_ta_cong_thuc.js
+ python scripts/06_bang_trich_dan.py
+ python scripts/08_thu_thap_tai_lieu.py      (chỉ cần khi tải lại kho tài liệu gốc)
+ python scripts/09_pdf_sang_anh.py <STT> <trang đầu> <trang cuối> [dpi]   (tách PDF quét thành ảnh)
+ python scripts/10_doi_chieu_pdf.py
+ python scripts/11_bang_kem_tai_lieu.py
+
+ Ba file đầu vào gốc vẫn nằm ở thư mục cha detai/ (EBI_NGTK_Panel_2017_2024.xlsx,
+ doi_chieu_citations.xlsx, hdnc18062026.docx); các script tự tìm bằng hàm tim_file.
