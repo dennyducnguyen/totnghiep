@@ -1,0 +1,16 @@
+﻿bien,ten,don_vi,nguon,N,mean,sd,min,max
+EBI,Chỉ số TMĐT tổng hợp (EBI),điểm,VECOM,445,27.52788764044944,16.561870107987,3.98,90.6
+EBI_dtf,Khoảng cách tới tỉnh dẫn đầu của EBI (DTF),%,Tính toán,445,32.45720773940568,19.33138046563737,5.884962294839569,100.0
+NNL_HT,Trụ cột Nguồn nhân lực & hạ tầng CNTT,điểm,VECOM,445,25.856719101123595,15.78547690452685,8.5,98.5
+B2C,Trụ cột giao dịch B2C,điểm,VECOM,445,30.158449438202247,19.24767187455,2.04,89.8
+B2B,Trụ cột giao dịch B2B,điểm,VECOM,445,22.825370786516856,15.54094376241746,1.86,96.0
+G2B,Trụ cột giao dịch G2B (2017–2020),điểm,VECOM,217,64.20276497695852,8.839022890163923,43.0,86.0
+retail_pc_tr,Bán lẻ hàng hóa & dịch vụ bình quân đầu người,triệu đồng,NGTK,504,43.62714285714286,21.92482391149648,8.61,125.84
+grdp_pc_tr,GRDP bình quân đầu người (từ 2018),triệu đồng,NGTK,441,76.918820861678,46.28038986308564,26.1,372.1
+dn_per_1000,Mật độ doanh nghiệp đang hoạt động,DN/1.000 dân,NGTK,504,5.194041666666667,4.609113881821149,1.344,29.287
+cathe_per_1000,Mật độ cơ sở kinh tế cá thể phi nông nghiệp,cơ sở/1.000 dân,NGTK,504,53.79826580779893,14.595932253131329,22.54180602006689,102.68904081209861
+trained_labor_pct,Tỷ lệ lao động 15+ đã qua đào tạo,%,NGTK,504,22.06845238095238,8.33422229235601,8.2,53.9
+urban_share_pct,Tỷ lệ dân số thành thị,%,NGTK,504,30.36359126984127,17.251925008549033,9.8,87.81
+fdi_pc_usd,Vốn FDI đăng ký lũy kế/người,USD/người,NGTK,504,3354.3440476190476,4640.211133594921,3.0,30546.5
+hh_computer_pct,Tỷ lệ hộ có máy tính (từ 2019),%,NGTK,378,21.265343915343916,8.898319813580015,4.3,58.1
+it_skills_pct,Tỷ lệ dân số có kỹ năng CNTT (2024),%,NGTK,63,42.73968253968254,8.751876106382243,25.8,63.1

@@ -1,0 +1,85 @@
+PHIÊN BẢN v8 (11/10/2026) — BÀI BÁO HOÀN CHỈNH THEO HƯỚNG CỦA BẢN NHÁP v8 (phantichketqua.docx)
+==============================================================================================
+Tác giả: Đào Thị Hồng Vân.  Thư mục tự chứa: chỉ cần thư mục v8 là chạy lại được toàn bộ số liệu, hình, bảng và file Word.
+
+-----------------------------------------------------
+1. SẢN PHẨM BÀN GIAO (đọc theo thứ tự này)
+-----------------------------------------------------
+ Bai-bao-EBI-63-tinh-2017-2024-v8.docx   BÀI BÁO HOÀN CHỈNH (~24 trang A4; tóm tắt Việt + Anh; 8 mục; 8 phương trình Word gốc;
+                                          8 bảng chính + 3 bảng phụ lục; 7 hình; 31 tài liệu tham khảo APA)
+ So-lieu-ket-qua-v8.xlsx                  toàn bộ bảng kết quả dạng số chưa làm tròn (mỗi bảng một sheet) + panel phân tích
+ Bang-doi-chieu-trich-dan-v8.xlsx         31 tài liệu: số lần trích, mục có trích, file gốc trong ../v7/tai-lieu-doi-chieu/
+ hinh/Hinh1…Hinh7_*.png                   7 hình của bài (200 dpi), số hình khớp số trong bài
+ ket-qua/                                 các bảng kết quả CSV, ket_qua.json, so_lieu_bai.json (số trong lời văn), bang_docx.json
+ du-lieu/EBI_NGTK_Panel_2017_2024.xlsx    DỮ LIỆU ĐẦU VÀO DUY NHẤT (= bản rev2 ở gốc repo, bỏ cột vung_ebi)
+ phantichketqua.docx                      bản nháp chương kết quả của tác giả (giữ nguyên, không sửa)
+
+-----------------------------------------------------
+2. CHẠY LẠI TOÀN BỘ
+-----------------------------------------------------
+ Lần đầu (cài thư viện):   pip install -r requirements.txt
+                           cd scripts  →  npm install  →  cd ..          (Node.js, gói docx)
+ Windows:   bấm đúp chay_tat_ca.bat         macOS/Linux:  ./chay_tat_ca.sh
+ Hoặc lần lượt (trong thư mục v8):
+   python scripts/01_phan_tich.py           tính toán → ket-qua/*.csv, ket_qua.json
+   python scripts/02_ve_hinh.py             7 hình → hinh/   (python scripts/02_ve_hinh.py 3 5 = chỉ vẽ Hình 3, 5)
+   python scripts/03_bang_va_so_lieu.py     định dạng bảng (số kiểu Việt) + so_lieu_bai.json + So-lieu-ket-qua-v8.xlsx
+   node   scripts/04_dung_word.js           dựng file Word từ scripts/noi_dung.js (lời văn) + cong_thuc.js (phương trình)
+   python scripts/05_kiem_tra_trich_dan.py  kiểm tra trích dẫn ↔ danh mục ↔ file gốc → Bang-doi-chieu-trich-dan-v8.xlsx
+ Nếu file Word đang mở: đóng Word trước, hoặc đặt biến môi trường OUT_FILE=ten-khac.docx rồi chạy bước 4.
+
+ SỬA BÀI: lời văn nằm trong scripts/noi_dung.js. Mọi con số trong lời văn viết dạng {{n:tên}} và được điền tự động từ
+ ket-qua/so_lieu_bai.json → nếu dữ liệu thay đổi, chạy lại là số trong bài khớp bảng. Nếu sửa trực tiếp trong Word thì
+ lần chạy lại sau sẽ ghi đè các sửa đổi đó.
+
+-----------------------------------------------------
+3. THIẾT KẾ NGHIÊN CỨU (giữ khung của bản nháp v8)
+-----------------------------------------------------
+ RQ1 mức độ & cấu trúc  : CV, Gini, Theil-T, DTF, Max/Min, P90/P10 theo năm (Bảng 2);
+                          H1 phân rã Theil-T 6 vùng (Hình 3, Bảng A1); H2 Gini từng trụ cột (Bảng 3)
+ RQ2 hội tụ             : H3 hội tụ sigma (Hình 4); H4 hội tụ beta M1A/M1B (Bảng 4, Hình 5) + 10 kiểm tra độ vững (Bảng 5)
+ RQ3 yếu tố liên quan   : tương quan (Hình 6); M2–M5 OLS gộp + hiệu ứng năm, SE cụm tỉnh, Y = DTF (Bảng 6);
+                          M6 cắt ngang 2024 với kỹ năng CNTT (Bảng 7, Hình 7); kiểm tra độ vững (Bảng A2, A3)
+ Tổng hợp giả thuyết    : Bảng 8
+
+-----------------------------------------------------
+4. NHỮNG ĐIỂM ĐÃ SỬA SO VỚI BẢN NHÁP phantichketqua.docx (và lý do)
+-----------------------------------------------------
+ (1) Cỡ mẫu: bản nháp ghi "63 tỉnh, 504 quan sát", N = 438 (Bảng 3), N = 63 (Mô hình 6). Thực tế EBI chỉ có 54–58 tỉnh/năm
+     = 445 quan sát; mô hình 2018–2024 có 391 quan sát; năm 2024 có 58 tỉnh. Bài v8 ghi đúng và nêu dữ liệu thiếu là hạn chế.
+ (2) Hội tụ beta: bản nháp tính tăng trưởng 2022 từ gốc 2021 — chính năm mà bản nháp gọi là "thang thử nghiệm"
+     (B2C trung bình 6,3 năm 2021 so với 21,9 năm 2022). Bài v8 dùng tăng trưởng 2023–2024 (gốc 2022–2023).
+     Kết luận của bản nháp VẪN ĐỨNG: β = −0,077*** (tuyệt đối), −0,251*** (có điều kiện), vững khi loại HN & TP.HCM.
+     Thang cũ 2018–2020: β tuyệt đối −0,045 có ý nghĩa nhưng mất ý nghĩa khi loại HN & TP.HCM (p = 0,53) hoặc khi có
+     biến kiểm soát → "không có bắt kịp vững trước 2021", cùng ý với bản nháp (bản nháp ra p = 0,79).
+ (3) Biến phụ thuộc hồi quy: dùng DTF (điểm / điểm tỉnh dẫn đầu × 100) thay cho điểm tuyệt đối vì điểm tuyệt đối đổi thang
+     qua các năm; gọi đúng tên phương pháp là OLS gộp có hiệu ứng năm (bản nháp viết FE/RE) và thêm FE tỉnh + năm làm kiểm tra.
+ (4) Trùng định nghĩa: từ 2021 EBI chứa "thu nhập bình quân đầu người" (B2C) và "tỷ lệ DN/dân số" (B2B) (VECOM 2023,
+     tr. 49–53). Bài v8 nêu rõ và ước lượng lại M3, M4 trên 2018–2020: GRDP và mật độ DN vẫn có ý nghĩa → không chỉ do định nghĩa.
+ (5) Biến: "Thu nhập" của bản nháp thực chất là GRDP/người → ghi đúng tên. Số cơ sở cá thể đổi sang mật độ (cơ sở/1.000 dân)
+     vì số tuyệt đối chủ yếu đo quy mô dân số của tỉnh.
+ (6) H5d được kiểm định bằng hồi quy (M5 và Bảng A2 cột 6), không chỉ bằng tương quan.
+ (7) Ngôn ngữ: "tác động / quyết định / chứng minh" → "liên hệ"; bỏ các khẳng định không có nguồn (Samsung/Foxconn,
+     logistics "phủ 100% xã"...), giữ dạng "cơ chế có thể" kèm lưu ý không kiểm định được.
+ (8) Bổ sung các phần còn thiếu để thành bài báo: giới thiệu, tổng quan, khung nghiên cứu (Hình 1), dữ liệu – phương pháp
+     với 8 phương trình, thảo luận, hàm ý chính sách, hạn chế, kết luận, tài liệu tham khảo, phụ lục.
+
+-----------------------------------------------------
+5. KẾT QUẢ CHÍNH (khác bản nháp ở đâu)
+-----------------------------------------------------
+ Bảng 2 (Gini, CV, Theil, DTF, Max/Min, tỷ trọng trong vùng 63,1–69,1%): KHỚP bản nháp.
+ H1 Chấp nhận · H2 Chấp nhận (2022–2024) · H3 Chấp nhận (dấu hiệu ngắn hạn) · H4 Chấp nhận một phần (như bản nháp).
+ H5a Chấp nhận một phần (GRDP 12,8**, đô thị hóa 0,25**; bán lẻ ns) — như bản nháp.
+ H5b Chấp nhận một phần: mật độ DN 2,92***; KHÁC bản nháp: FDI KHÔNG có ý nghĩa (bản nháp: âm có ý nghĩa — không tái lập được),
+     mật độ cơ sở cá thể mang dấu ÂM (bản nháp dùng logarit số cơ sở tuyệt đối – chủ yếu đo quy mô dân số – và ra dấu dương).
+ H5c Chấp nhận một phần (bản nháp: chấp nhận): LĐ qua đào tạo chỉ có ý nghĩa khi bỏ biến hộ có máy tính (r giữa hai biến 0,68).
+ H5d Chấp nhận một phần: hộ có máy tính liên hệ với NNL&HT (0,99***) nhưng không với EBI tổng hợp.
+ H5e Chấp nhận một phần (bản nháp: chấp nhận): kỹ năng CNTT 1,28*** khi đứng riêng; mất ý nghĩa khi kiểm soát mật độ DN.
+
+-----------------------------------------------------
+6. VIỆC TÁC GIẢ CẦN LÀM TRƯỚC KHI NỘP
+-----------------------------------------------------
+ - Điền đơn vị công tác, email (dòng 2–3 của bài, trong scripts/noi_dung.js) rồi chạy lại bước 4.
+ - Mở file Word bằng MS Word để xem phương trình (LibreOffice không hiển thị phương trình Word gốc).
+ - Đối chiếu thể lệ của tạp chí định nộp (số trang, kiểu trích dẫn, tóm tắt) — bài đang theo mẫu bản v7.
+ - Kho tài liệu gốc để đối chiếu trích dẫn nằm ở ../v7/tai-lieu-doi-chieu/ (không sao chép sang v8 để tránh trùng 95 MB).
